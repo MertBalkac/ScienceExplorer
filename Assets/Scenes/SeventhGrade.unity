@@ -179,7 +179,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '"""""""""""""""""""""""""""""""""""""""""""""""'
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2d520da341746e940b04aa88c093a4b3, type: 2}
   m_sharedMaterial: {fileID: -2668486436810622884, guid: 2d520da341746e940b04aa88c093a4b3, type: 2}
@@ -268,6 +268,8 @@ GameObject:
   - component: {fileID: 91070447}
   - component: {fileID: 91070446}
   - component: {fileID: 91070445}
+  - component: {fileID: 91070449}
+  - component: {fileID: 91070448}
   m_Layer: 5
   m_Name: 1
   m_TagString: Untagged
@@ -378,6 +380,66 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 91070443}
   m_CullTransparentMesh: 1
+--- !u!114 &91070448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 91070443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 397e7d22efed8144ea019e45a4f1dc1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 19274828}
+  experimentText: SYSTEMS IN OUR BODY
+  typingSpeed: 0.05
+--- !u!114 &91070449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 91070443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 91070448}
+          m_TargetAssemblyTypeName: TypeScript, Assembly-CSharp
+          m_MethodName: type
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 91070448}
+          m_TargetAssemblyTypeName: TypeScript, Assembly-CSharp
+          m_MethodName: ResetText
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &151218009
 GameObject:
   m_ObjectHideFlags: 0
@@ -390,6 +452,8 @@ GameObject:
   - component: {fileID: 151218013}
   - component: {fileID: 151218012}
   - component: {fileID: 151218011}
+  - component: {fileID: 151218015}
+  - component: {fileID: 151218014}
   m_Layer: 5
   m_Name: 2
   m_TagString: Untagged
@@ -500,6 +564,66 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 151218009}
   m_CullTransparentMesh: 1
+--- !u!114 &151218014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151218009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 397e7d22efed8144ea019e45a4f1dc1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 872122176}
+  experimentText: TRANSMISSION OF ELECTRICITY
+  typingSpeed: 0.05
+--- !u!114 &151218015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151218009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 151218014}
+          m_TargetAssemblyTypeName: TypeScript, Assembly-CSharp
+          m_MethodName: type
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 151218014}
+          m_TargetAssemblyTypeName: TypeScript, Assembly-CSharp
+          m_MethodName: ResetText
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &151956292
 GameObject:
   m_ObjectHideFlags: 0
@@ -557,7 +681,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '"""""""""""""""""""""""""""""""""""""""""""""""'
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2d520da341746e940b04aa88c093a4b3, type: 2}
   m_sharedMaterial: {fileID: -2668486436810622884, guid: 2d520da341746e940b04aa88c093a4b3, type: 2}
@@ -1360,7 +1484,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '"""""""""""""""""""""""""""""""""""""""""""""""'
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2d520da341746e940b04aa88c093a4b3, type: 2}
   m_sharedMaterial: {fileID: -2668486436810622884, guid: 2d520da341746e940b04aa88c093a4b3, type: 2}
@@ -1688,6 +1812,8 @@ GameObject:
   - component: {fileID: 1311856943}
   - component: {fileID: 1311856942}
   - component: {fileID: 1311856941}
+  - component: {fileID: 1311856945}
+  - component: {fileID: 1311856944}
   m_Layer: 5
   m_Name: 3
   m_TagString: Untagged
@@ -1798,6 +1924,66 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1311856939}
   m_CullTransparentMesh: 1
+--- !u!114 &1311856944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311856939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 397e7d22efed8144ea019e45a4f1dc1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 151956294}
+  experimentText: SOLAR SYSTEM AND BEYOND
+  typingSpeed: 0.05
+--- !u!114 &1311856945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311856939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1311856944}
+          m_TargetAssemblyTypeName: TypeScript, Assembly-CSharp
+          m_MethodName: type
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1311856944}
+          m_TargetAssemblyTypeName: TypeScript, Assembly-CSharp
+          m_MethodName: ResetText
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1514524036
 GameObject:
   m_ObjectHideFlags: 0
