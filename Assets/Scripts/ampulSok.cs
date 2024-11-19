@@ -6,7 +6,6 @@ using UnityEngine;
 public class ampulSok : MonoBehaviour
 {
 
-
     [SerializeField] EmissionAndBloomControl EmissionAndBloomControl;
     private void Update()
     {

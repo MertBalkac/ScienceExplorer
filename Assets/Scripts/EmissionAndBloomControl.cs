@@ -11,11 +11,16 @@ public class EmissionAndBloomControl : MonoBehaviour
     public float bloomIntensityOn; // Bloom açýkken yoðunluk
     public float bloomIntensityOff = 0f; // Bloom kapalýyken yoðunluk
 
-    private bool isEmissionOn = false; // Emission durumu
+    public bool isEmissionOn = false; // Emission durumu
     private Bloom bloom; // Bloom bileþeni
 
     [SerializeField] bool ampulSokuluMu=true;
     [SerializeField] GameObject ampul;
+
+    [SerializeField] bool isParallelAmpul;
+    [SerializeField] GameObject bosBulb;
+    [SerializeField] GameObject originalbulb;
+
 
     private void Awake()
     {
@@ -61,14 +66,13 @@ public class EmissionAndBloomControl : MonoBehaviour
                 material.DisableKeyword("_EMISSION");
                 material.SetColor("_EmissionColor", Color.black);
 
-                
                 if (bloom != null)
                 {
                     bloom.intensity.value = bloomIntensityOff;
                 }
             }
             ampul.transform.position = new Vector3(ampul.transform.position.x, ampul.transform.position.y + 0.12f, ampul.transform.position.z);
-            ampulSokuluMu = false; 
+            ampulSokuluMu = false;
         }
         else 
         {

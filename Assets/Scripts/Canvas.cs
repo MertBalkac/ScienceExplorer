@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
 
 public class Canvas : MonoBehaviour
 {
@@ -13,16 +15,35 @@ public class Canvas : MonoBehaviour
     [SerializeField] GameObject seriesButton;
     [SerializeField] GameObject parallelButton;
     [SerializeField] bool isInInitialPosition = true;
+    public Material material; // Emission için materyal
+    public Volume globalVolume; // Global Volume referansý
+    private Bloom bloom; // Bloom bileþeni
+
+    [SerializeField] EmissionAndBloomControl emissionAndBloomControl;
+    [SerializeField] EmissionAndBloomControl emissionAndBloomControl1;
+
 
     private void Start()
     {
         // Kameranýn baþlangýç pozisyonunu kaydediyoruz
         initialPosition = camera.transform.position;
+
+        if (globalVolume.profile.TryGet<Bloom>(out bloom))
+        {
+            Debug.Log("Bloom bileþeni bulundu.");
+        }
+        else
+        {
+            Debug.LogError("Global Volume içinde Bloom bileþeni yok!");
+        }
     }
 
     public void MoveToTarget()
     {
+
         // Hedef pozisyona hareketi baþlat
+        material.DisableKeyword("_EMISSION");
+        material.SetColor("_EmissionColor", Color.black);
         parallelButton.SetActive(false);
         StartCoroutine(CameraMove(camera.transform.position, target));
     }
@@ -30,12 +51,17 @@ public class Canvas : MonoBehaviour
     public void ResetToInitialPosition()
     {
         // Baþlangýç pozisyonuna hareketi baþlat
+        material.DisableKeyword("_EMISSION");
+        material.SetColor("_EmissionColor", Color.black);
         seriesButton.SetActive(false);
         StartCoroutine(CameraMove(camera.transform.position, initialPosition));
     }
 
     IEnumerator CameraMove(Vector3 start, Vector3 end)
     {
+        bloom.intensity.value = 0f;
+        emissionAndBloomControl.isEmissionOn = false;
+        emissionAndBloomControl1.isEmissionOn = false;
         // Kamera baþlangýçtan hedefe doðru hareket eder
         float journey = 0f;
         while (journey < 1f)
