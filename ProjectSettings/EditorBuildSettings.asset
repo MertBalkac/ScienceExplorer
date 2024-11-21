@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EighthGrade.unity
     guid: b399fd22b57e2874aa660208c02fd030
+  - enabled: 1
+    path: Assets/Scenes/7th/7.2.unity
+    guid: e7f5f2c904ed69c4fb25cac845adc20d
   m_configObjects: {}

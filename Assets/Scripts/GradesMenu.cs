@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
 
-public class SixthGradeMenu : MonoBehaviour
+public class GradesMenu : MonoBehaviour
 {
     
 
@@ -13,5 +13,10 @@ public class SixthGradeMenu : MonoBehaviour
         SceneManager.LoadSceneAsync("Unites");
     }
 
-    
+    public void SevenTwo()
+    {
+        SceneManager.LoadSceneAsync("7.2");
+
+    }
+
 }
