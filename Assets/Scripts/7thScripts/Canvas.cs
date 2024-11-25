@@ -21,6 +21,9 @@ public class Canvas : MonoBehaviour
 
     [SerializeField] EmissionAndBloomControl emissionAndBloomControl;
     [SerializeField] EmissionAndBloomControl emissionAndBloomControl1;
+    [SerializeField] GameObject electricity;
+    [SerializeField] GameObject parallelElectricity1;
+    [SerializeField] GameObject parallelElectricity2;
 
 
     private void Start()
@@ -42,6 +45,8 @@ public class Canvas : MonoBehaviour
     {
 
         // Hedef pozisyona hareketi baþlat
+        electricity.SetActive(false);
+        parallelElectricity1.SetActive(false);
         material.DisableKeyword("_EMISSION");
         material.SetColor("_EmissionColor", Color.black);
         parallelButton.SetActive(false);
@@ -51,6 +56,8 @@ public class Canvas : MonoBehaviour
     public void ResetToInitialPosition()
     {
         // Baþlangýç pozisyonuna hareketi baþlat
+        parallelElectricity1.SetActive(false);
+        parallelElectricity2.SetActive(false);
         material.DisableKeyword("_EMISSION");
         material.SetColor("_EmissionColor", Color.black);
         seriesButton.SetActive(false);

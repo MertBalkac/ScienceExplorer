@@ -1,7 +1,10 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
+using static UnityEngine.GraphicsBuffer;
 
 public class EmissionAndBloomControl : MonoBehaviour
 {
@@ -17,9 +20,11 @@ public class EmissionAndBloomControl : MonoBehaviour
     [SerializeField] bool ampulSokuluMu=true;
     [SerializeField] GameObject ampul;
 
-    [SerializeField] bool isParallelAmpul;
-    [SerializeField] GameObject bosBulb;
-    [SerializeField] GameObject originalbulb;
+    public bool isParallelBulbInSocket;
+    [SerializeField] bool inSeriesCircuit = true;
+    [SerializeField] GameObject electricity;
+    [SerializeField] GameObject parallelElectricity2;
+    [SerializeField] GameObject parallelElectricity1;
 
 
     private void Awake()
@@ -51,6 +56,7 @@ public class EmissionAndBloomControl : MonoBehaviour
                 if (hit.transform == transform) // Bu GameObject'e týklandý mý?
                 {
                     ToggleEmission();
+
                 }
             }
         }
@@ -63,6 +69,7 @@ public class EmissionAndBloomControl : MonoBehaviour
             if (isEmissionOn)
             {
                 isEmissionOn = false;
+                electricity.SetActive(false);
                 material.DisableKeyword("_EMISSION");
                 material.SetColor("_EmissionColor", Color.black);
 
@@ -91,11 +98,23 @@ public class EmissionAndBloomControl : MonoBehaviour
             // Emission kontrolü
             if (isEmissionOn)
             {
+                electricity.SetActive(true);
+                parallelElectricity1.SetActive(true);
+                if(isParallelBulbInSocket)
+                {
+                    parallelElectricity2.SetActive(true);
+                }
                 material.EnableKeyword("_EMISSION");
                 material.SetColor("_EmissionColor", emissionColor);
             }
             else
             {
+                electricity.SetActive(false);
+                parallelElectricity1.SetActive(false);
+                if (isParallelBulbInSocket)
+                {
+                    parallelElectricity2.SetActive(false);
+                }
                 material.DisableKeyword("_EMISSION");
                 material.SetColor("_EmissionColor", Color.black);
             }
@@ -106,6 +125,11 @@ public class EmissionAndBloomControl : MonoBehaviour
                 bloom.intensity.value = isEmissionOn ? bloomIntensityOn : bloomIntensityOff;
             }
         }
-        
+
+        if(!isParallelBulbInSocket && isEmissionOn)
+        {
+            parallelElectricity1.SetActive(true);
+        }
+
     }
 }
