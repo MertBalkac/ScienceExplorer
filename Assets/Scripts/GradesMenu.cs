@@ -6,17 +6,17 @@ using TMPro;
 
 public class GradesMenu : MonoBehaviour
 {
-    
+    [SerializeField] string TargetScene;
 
-    public void BackToUnites()
+    public void loadScene()
     {
-        SceneManager.LoadSceneAsync("Unites");
-    }
-
-    public void SevenTwo()
-    {
-        SceneManager.LoadSceneAsync("7.2");
-
+        if (!string.IsNullOrEmpty(TargetScene))
+        {
+            SceneManager.LoadScene(TargetScene);
+        } else
+        {
+            Debug.LogError("Target scene name is not set");
+        }
     }
 
 }

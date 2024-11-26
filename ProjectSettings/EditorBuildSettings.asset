@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/7th/7.2.unity
     guid: e7f5f2c904ed69c4fb25cac845adc20d
+  - enabled: 1
+    path: Assets/Scenes/7th/7.3.unity
+    guid: eece2fb7e052152448cf2af00170115b
   m_configObjects: {}
