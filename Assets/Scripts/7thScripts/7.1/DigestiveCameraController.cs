@@ -6,11 +6,11 @@ public class DigestiveCameraController : MonoBehaviour
 {
     [SerializeField] List<GameObject> cameras;
     [SerializeField] List<GameObject> organsInformations;
-    [SerializeField] Transform mainCamera; // Ana kamera transformu
-    [SerializeField] float transitionSpeed = 2f; // Smooth geçiþ hýzý
+    [SerializeField] Transform mainCamera;
+    [SerializeField] float transitionSpeed = 2f; 
 
     private bool isTransitioning = false;
-    private Transform targetCameraTransform; // Geçiþ yapýlacak kamera
+    private Transform targetCameraTransform;
 
     public void ActivateCamera()
     {
@@ -21,12 +21,11 @@ public class DigestiveCameraController : MonoBehaviour
         {
             if (cam.name == buttonName)
             {
-                targetCameraTransform = cam.transform; // Hedef kamerayý al
+                targetCameraTransform = cam.transform;
                 break;
             }
         }
 
-        // Hangi organ bilgileri aktif olacak?
         foreach (GameObject organ in organsInformations)
         {
             organ.SetActive(organ.name == buttonName);
@@ -43,11 +42,9 @@ public class DigestiveCameraController : MonoBehaviour
     {
         if (isTransitioning && targetCameraTransform != null)
         {
-            // Pozisyonu ve rotasyonu smooth þekilde deðiþtir
             mainCamera.position = Vector3.Lerp(mainCamera.position, targetCameraTransform.position, Time.deltaTime * transitionSpeed);
             mainCamera.rotation = Quaternion.Lerp(mainCamera.rotation, targetCameraTransform.rotation, Time.deltaTime * transitionSpeed);
 
-            // Hedefe ulaþtýktan sonra geçiþi durdur
             if (Vector3.Distance(mainCamera.position, targetCameraTransform.position) < 0.01f &&
                 Quaternion.Angle(mainCamera.rotation, targetCameraTransform.rotation) < 0.1f)
             {
