@@ -54,6 +54,7 @@ public class DigestiveCameraController : MonoBehaviour
         foreach (GameObject organ in organsInformations)
         {
             organ.SetActive(organ.name == buttonName);
+            StartCoroutine(organInformationsAndCanvas(organ,buttonName));
         }
 
         // Geçiþ baþlat
@@ -61,6 +62,13 @@ public class DigestiveCameraController : MonoBehaviour
         {
             isTransitioning = true;
         }
+    }
+
+    IEnumerator organInformationsAndCanvas(GameObject organ, string buttonName)
+    {
+        GameObject childObject = organ.transform.Find("Image").gameObject;
+        yield return new WaitForSeconds(1.6f);
+        childObject.SetActive(organ.name ==buttonName);
     }
 
     private void Update()
