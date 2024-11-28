@@ -7,7 +7,9 @@ public class DigestiveCameraController : MonoBehaviour
     [SerializeField] List<GameObject> cameras;
     [SerializeField] List<GameObject> organsInformations;
     [SerializeField] Transform mainCamera;
-    [SerializeField] float transitionSpeed = 2f; 
+    [SerializeField] float transitionSpeed = 2f;
+    [SerializeField] List<GameObject> skeletonButtons;
+    [SerializeField] List<GameObject> digestiveButtons;
 
     private bool isTransitioning = false;
     private Transform targetCameraTransform;
@@ -15,6 +17,29 @@ public class DigestiveCameraController : MonoBehaviour
     public void ActivateCamera()
     {
         string buttonName = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.name;
+
+        if(buttonName == "Skeleton System")
+        {
+            foreach(GameObject button in skeletonButtons)
+            {
+                button.SetActive(true);
+            }
+            foreach(GameObject button in digestiveButtons)
+            {
+                button.SetActive(false);
+            }
+        }
+        else if (buttonName == "System")
+        {
+            foreach (GameObject button in skeletonButtons)
+            {
+                button.SetActive(false);
+            }
+            foreach (GameObject button in digestiveButtons)
+            {
+                button.SetActive(true);
+            }
+        }
 
         // Hangi kamera hedeflenecek?
         foreach (GameObject cam in cameras)
