@@ -19,4 +19,9 @@ public class GradesMenu : MonoBehaviour
         }
     }
 
+    public void resetScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
 }
