@@ -2411,9 +2411,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa7c9bda2fefb804c813a23918b3680b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  topAnchor: {fileID: 591594215}
-  bottomAnchor: {fileID: 1525816820}
-  lineRenderer: {fileID: 0}
 --- !u!120 &1290710818
 LineRenderer:
   serializedVersion: 2
@@ -3680,9 +3677,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa7c9bda2fefb804c813a23918b3680b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  topAnchor: {fileID: 591594215}
-  bottomAnchor: {fileID: 2113538477}
-  lineRenderer: {fileID: 0}
 --- !u!120 &1632929220
 LineRenderer:
   serializedVersion: 2
