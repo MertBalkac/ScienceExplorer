@@ -2,10 +2,11 @@ using UnityEngine;
 
 public class MagneticForce : MonoBehaviour
 {
-    public Transform otherMagnet; // Diðer küre
-    public float magneticForce = 10f; // Manyetik kuvvetin büyüklüðü
+    public Transform otherMagnet;
+    public MagneticForceValue magneticForceValue;
     private Rigidbody rb;
     private MagneticPole magneticPole;
+
 
     void Start()
     {
@@ -15,6 +16,7 @@ public class MagneticForce : MonoBehaviour
 
     void FixedUpdate()
     {
+        float magneticForce = magneticForceValue.magneticForce;
         if (otherMagnet == null) return;
 
         MagneticPole otherMagneticPole = otherMagnet.GetComponent<MagneticPole>();

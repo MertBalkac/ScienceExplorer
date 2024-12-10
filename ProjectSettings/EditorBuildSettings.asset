@@ -21,18 +21,24 @@ EditorBuildSettings:
     path: Assets/Scenes/EighthGrade.unity
     guid: b399fd22b57e2874aa660208c02fd030
   - enabled: 1
+    path: Assets/Scenes/7th/7.1.unity
+    guid: f54115f08c720a649a041ed1d66515fc
+  - enabled: 1
     path: Assets/Scenes/7th/7.2.unity
     guid: e7f5f2c904ed69c4fb25cac845adc20d
   - enabled: 1
     path: Assets/Scenes/7th/7.3.unity
     guid: eece2fb7e052152448cf2af00170115b
   - enabled: 1
-    path: Assets/Scenes/7th/7.1.unity
-    guid: f54115f08c720a649a041ed1d66515fc
-  - enabled: 1
     path: Assets/Scenes/6th/6.2.unity
     guid: e3cd8466f3a34a145be2ea4cb615af7c
   - enabled: 1
     path: Assets/Scenes/6th/6.3.unity
     guid: 39154b727dfe74a439babe6d7440da4d
+  - enabled: 1
+    path: Assets/Scenes/6th/6.4.unity
+    guid: a8160abf967eef040b0b33a356673208
+  - enabled: 1
+    path: Assets/Scenes/6th/6.5.unity
+    guid: 4a03c44a6e5f9ac419cac7d075d92401
   m_configObjects: {}
