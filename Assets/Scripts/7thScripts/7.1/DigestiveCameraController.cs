@@ -18,7 +18,7 @@ public class DigestiveCameraController : MonoBehaviour
     {
         string buttonName = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.name;
 
-        if(buttonName == "Skeleton System")
+        if(buttonName == "Skeleton System" || buttonName == "Plant System")
         {
             foreach(GameObject button in skeletonButtons)
             {
@@ -29,7 +29,7 @@ public class DigestiveCameraController : MonoBehaviour
                 button.SetActive(false);
             }
         }
-        else if (buttonName == "System")
+        else if (buttonName == "System" || buttonName == "Animal System")
         {
             foreach (GameObject button in skeletonButtons)
             {

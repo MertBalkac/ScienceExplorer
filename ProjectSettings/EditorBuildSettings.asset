@@ -41,4 +41,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/6th/6.5.unity
     guid: 4a03c44a6e5f9ac419cac7d075d92401
+  - enabled: 1
+    path: Assets/Scenes/6th/6.1.unity
+    guid: bf8b3f0893cd1334387e3a570b3af4d3
   m_configObjects: {}
