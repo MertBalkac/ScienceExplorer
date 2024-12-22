@@ -407,7 +407,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 19274828}
-  experimentText: LIVING ORGANISMS AND ENERGY
+  experimentText: SIMPLE MACHINES
   typingSpeed: 0.05
 --- !u!114 &91070449
 MonoBehaviour:
