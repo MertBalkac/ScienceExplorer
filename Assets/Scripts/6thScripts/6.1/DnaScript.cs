@@ -15,6 +15,7 @@ public class DnaScript : MonoBehaviour
     [SerializeField] GameObject arrow2;
     [SerializeField] GameObject rnaText;
     [SerializeField] GameObject proteinText;
+    [SerializeField] GameObject infoText;
     // Start is called before the first frame update
 
     void Start()
@@ -35,6 +36,7 @@ public class DnaScript : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         protein.SetActive(true);
         proteinText.SetActive(true);
+        infoText.SetActive(true);
         yield return new WaitForSeconds(2f);
 
 
