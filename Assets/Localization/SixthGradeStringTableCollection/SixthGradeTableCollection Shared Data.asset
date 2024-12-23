@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: SixthGradeTableCollection Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: SixthGradeTableCollection
+  m_TableCollectionNameGuidString: 93f06fdf9edab2644a1f74c272d30e10
+  m_Entries:
+  - m_Id: 41117888512
+    m_Key: key_sixthgrade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252133322752
+    m_Key: key_sixthfirstexperiment
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3461761544192
+    m_Key: key_sixthsecondexperiment
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3477980917760
+    m_Key: key_sixththirdexperiment
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3483471261696
+    m_Key: key_sixthfourthexperiment
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3485241257984
+    m_Key: key_sixthfifthexperiment
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4666176909312
+    m_Key: key_sixth1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4667875602432
+    m_Key: key_sixth2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4669314248704
+    m_Key: key_sixth3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4670622871552
+    m_Key: key_sixth4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4671910522880
+    m_Key: key_sixth5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5247431946240
+    m_Key: key_sixthtopic
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8594281494941270050
+  references:
+    version: 2
+    RefIds:
+    - rid: 8594281494941270050
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1734963651447

@@ -1,31 +1,45 @@
 using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
 public class TypeScript : MonoBehaviour
 {
-    [SerializeField] TMP_Text text;
-    [SerializeField] string experimentText;
-    [SerializeField] private float typingSpeed = 0.05f;
+    [Header("TextMeshPro Referanslarý")]
+    [SerializeField] private TMP_Text sourceText;   // Metni buradan çekeceðiz
+    [SerializeField] private TMP_Text typingText;   // Yazý efektini burada göstereceðiz
 
-    public void type()
+    [Header("Yazý Ayarlarý")]
+    [SerializeField] private float typingSpeed = 0.05f; // Harfler arasý gecikme
+
+    public void Type()
     {
-        StartCoroutine(TypeSentence(experimentText));
+        // Daha önce çalýþan yazý efekti varsa durdurup sýfýrla
+        StopAllCoroutines();
+        typingText.text = "";
+
+        // Kaynak metni alarak Coroutine baþlat
+        StartCoroutine(TypeSentence(sourceText.text));
     }
+
     public void ResetText()
     {
+        // Çalýþan tüm Coroutine'leri durdur
         StopAllCoroutines();
-        text.text = "";
 
+        // Hedef metni sýfýrla
+        typingText.text = "";
     }
-    IEnumerator TypeSentence(string sentence)
+
+    private IEnumerator TypeSentence(string sentence)
     {
-        text.text = ""; // Önceki metni temizle
-            foreach (char letter in sentence.ToCharArray())
-            {
-                text.text += letter; // Her bir harfi sýrayla ekle
-                yield return new WaitForSeconds(typingSpeed); // Harfler arasýndaki gecikme süresi
-            } 
+        // Önce hedef metnimizi boþaltalým
+        typingText.text = "";
+
+        // Kaynaktan gelen metni harf harf yazdýralým
+        foreach (char letter in sentence.ToCharArray())
+        {
+            typingText.text += letter;
+            yield return new WaitForSeconds(typingSpeed);
+        }
     }
 }

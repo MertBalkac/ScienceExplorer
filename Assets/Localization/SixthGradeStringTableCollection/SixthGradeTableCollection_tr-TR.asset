@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: SixthGradeTableCollection_tr-TR
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: tr-TR
+  m_SharedData: {fileID: 11400000, guid: 93f06fdf9edab2644a1f74c272d30e10, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 41117888512
+    m_Localized: "6. S\u0131n\u0131f Laboratuvar\u0131n\u0131 Se\xE7"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252133322752
+    m_Localized: "CANLILARDA \xDCREME, B\xDCY\xDCME VE GEL\u0130\u015EME"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3461761544192
+    m_Localized: "KUVVET, HAREKET & BASIN\xC7"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3477980917760
+    m_Localized: "MADDEN\u0130N TANEC\u0130KL\u0130 YAPISI VE \xD6ZELL\u0130KLER\u0130"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3483471261696
+    m_Localized: "I\u015EIK VE SES"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3485241257984
+    m_Localized: "ELEKTR\u0130K Y\xDCKLER\u0130"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4666176909312
+    m_Localized: 1. Deney
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4667875602432
+    m_Localized: 2. Deney
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4669314248704
+    m_Localized: 3. Deney
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4670622871552
+    m_Localized: 4. Deney
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4671910522880
+    m_Localized: 5. Deney
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5247431946240
+    m_Localized: "6. S\u0131n\u0131f Deneyi Se\xE7iniz"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

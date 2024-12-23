@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Shared
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-Shared
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 7eb7460a59b29604b894f21ca4cc3df7
+  m_SerializeEntries:
+  - m_GUID: 01cc3cf7b270d8449b33e5b14a9a64f8
+    m_Address: Assets/Localization/MenuStringTableCollection Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 93f06fdf9edab2644a1f74c272d30e10
+    m_Address: Assets/Localization/SixthGradeStringTableCollection/SixthGradeTableCollection
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b0f3ef6d216b49f488ac74a54ea13394
+    m_Address: Assets/Localization/SeventhGradeStringTableCollection/SeventhGradeStringTableCollection
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c5c2213a798d4d646bba7e11fd31066a
+    m_Address: Assets/Localization/SelectGradeStringTableCollection/SelectGradeStringTableCollection
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 5357e09514ee0b84eb503be3878f5050, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: fb2dda403bfc8a646b96847d59637ff9, type: 2}
+    - {fileID: 11400000, guid: fd4dbea0e39f2824897031c4c8a7fcac, type: 2}

@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: SeventhGradeStringTableCollection_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: b0f3ef6d216b49f488ac74a54ea13394, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 9195040768
+    m_Localized: Choose 7th Grade Experiment
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126157402112
+    m_Localized: SYSTEMS IN OUR BODY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 319489650688
+    m_Localized: SOLAR SYSTEM AND BEYOND
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317774180352
+    m_Localized: TRANSMISSION OF ELECTRICITY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 961230745600
+    m_Localized: 1st Experiment
+    m_Metadata:
+      m_Items: []
+  - m_Id: 980029616128
+    m_Localized: 2nd Experiment
+    m_Metadata:
+      m_Items: []
+  - m_Id: 994034397184
+    m_Localized: 3rd Experiment
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
