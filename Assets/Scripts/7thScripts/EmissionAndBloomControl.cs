@@ -8,16 +8,16 @@ using static UnityEngine.GraphicsBuffer;
 
 public class EmissionAndBloomControl : MonoBehaviour
 {
-    public Material material; // Emission için materyal
-    public Color emissionColor = Color.white; // Emission rengi
-    public Volume globalVolume; // Global Volume referansý
-    public float bloomIntensityOn; // Bloom açýkken yoðunluk
-    public float bloomIntensityOff = 0f; // Bloom kapalýyken yoðunluk
+    public Material material;
+    public Color emissionColor = Color.white; 
+    public Volume globalVolume; 
+    public float bloomIntensityOn; 
+    public float bloomIntensityOff = 0f; 
 
-    public bool isEmissionOn = false; // Emission durumu
-    private Bloom bloom; // Bloom bileþeni
+    public bool isEmissionOn = false; 
+    private Bloom bloom; 
 
-    [SerializeField] bool ampulSokuluMu=true;
+    [SerializeField] bool isBulbInSlot=true;
     [SerializeField] GameObject ampul;
 
     public bool isParallelBulbInSocket;
@@ -35,7 +35,6 @@ public class EmissionAndBloomControl : MonoBehaviour
 
     void Start()
     {
-        // Global Volume'dan Bloom bileþenini al
         if (globalVolume.profile.TryGet<Bloom>(out bloom))
         {
             Debug.Log("Bloom bileþeni bulundu.");
@@ -48,12 +47,12 @@ public class EmissionAndBloomControl : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0)) // Sol týklama
+        if (Input.GetMouseButtonDown(0))
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(ray, out RaycastHit hit))
             {
-                if (hit.transform == transform) // Bu GameObject'e týklandý mý?
+                if (hit.transform == transform)
                 {
                     ToggleEmission();
 
@@ -62,9 +61,9 @@ public class EmissionAndBloomControl : MonoBehaviour
         }
     }
 
-    public void ampulsok()
+    public void RemoveBulb()
     {
-        if (ampulSokuluMu)
+        if (isBulbInSlot)
         {
             if (isEmissionOn)
             {
@@ -79,23 +78,21 @@ public class EmissionAndBloomControl : MonoBehaviour
                 }
             }
             ampul.transform.position = new Vector3(ampul.transform.position.x, ampul.transform.position.y + 0.12f, ampul.transform.position.z);
-            ampulSokuluMu = false;
+            isBulbInSlot = false;
         }
         else 
         {
             ampul.transform.position = new Vector3(ampul.transform.position.x, ampul.transform.position.y - 0.12f, ampul.transform.position.z);
-            ampulSokuluMu = true;
+            isBulbInSlot = true;
         }
     }
 
 
     void ToggleEmission()
     {
-        if(ampulSokuluMu)
+        if(isBulbInSlot)
         {
             isEmissionOn = !isEmissionOn;
-
-            // Emission kontrolü
             if (isEmissionOn)
             {
                 electricity.SetActive(true);
@@ -118,8 +115,6 @@ public class EmissionAndBloomControl : MonoBehaviour
                 material.DisableKeyword("_EMISSION");
                 material.SetColor("_EmissionColor", Color.black);
             }
-
-            // Bloom yoðunluðu kontrolü
             if (bloom != null)
             {
                 bloom.intensity.value = isEmissionOn ? bloomIntensityOn : bloomIntensityOff;

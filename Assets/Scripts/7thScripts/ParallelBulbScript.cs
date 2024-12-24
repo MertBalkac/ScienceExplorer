@@ -7,7 +7,6 @@ public class ParallelBulbScript : MonoBehaviour
     [SerializeField] GameObject emptyBulb;
     [SerializeField] GameObject originalBulb;
     private bool isOriginalActive;
-
     private void Awake()
     {
         isOriginalActive = true;
@@ -15,12 +14,12 @@ public class ParallelBulbScript : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0)) // Sol týklama
+        if (Input.GetMouseButtonDown(0))
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(ray, out RaycastHit hit))
             {
-                if (hit.transform == transform) // Bu GameObject'e týklandý mý?
+                if (hit.transform == transform)
                 {
                     SwitchBulb();
                 }

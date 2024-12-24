@@ -7,17 +7,17 @@ using UnityEngine.Rendering.Universal;
 public class Canvas : MonoBehaviour
 {
     [SerializeField] GameObject camera;
-    public Vector3 target; // Kamera hedef pozisyonu
-    public float speed = 2.0f; // Kamera hareket hýzý
+    public Vector3 target;
+    public float speed = 2.0f; 
 
-    private Vector3 initialPosition; // Kameranýn ilk pozisyonu
+    private Vector3 initialPosition;
 
     [SerializeField] GameObject seriesButton;
     [SerializeField] GameObject parallelButton;
     [SerializeField] bool isInInitialPosition = true;
-    public Material material; // Emission için materyal
-    public Volume globalVolume; // Global Volume referansý
-    private Bloom bloom; // Bloom bileþeni
+    public Material material;
+    public Volume globalVolume;
+    private Bloom bloom; 
 
     [SerializeField] EmissionAndBloomControl emissionAndBloomControl;
     [SerializeField] EmissionAndBloomControl emissionAndBloomControl1;
@@ -28,7 +28,6 @@ public class Canvas : MonoBehaviour
 
     private void Start()
     {
-        // Kameranýn baþlangýç pozisyonunu kaydediyoruz
         initialPosition = camera.transform.position;
 
         if (globalVolume.profile.TryGet<Bloom>(out bloom))
@@ -43,8 +42,6 @@ public class Canvas : MonoBehaviour
 
     public void MoveToTarget()
     {
-
-        // Hedef pozisyona hareketi baþlat
         electricity.SetActive(false);
         parallelElectricity1.SetActive(false);
         material.DisableKeyword("_EMISSION");
@@ -55,7 +52,6 @@ public class Canvas : MonoBehaviour
 
     public void ResetToInitialPosition()
     {
-        // Baþlangýç pozisyonuna hareketi baþlat
         parallelElectricity1.SetActive(false);
         parallelElectricity2.SetActive(false);
         material.DisableKeyword("_EMISSION");
@@ -69,13 +65,12 @@ public class Canvas : MonoBehaviour
         bloom.intensity.value = 0f;
         emissionAndBloomControl.isEmissionOn = false;
         emissionAndBloomControl1.isEmissionOn = false;
-        // Kamera baþlangýçtan hedefe doðru hareket eder
         float journey = 0f;
         while (journey < 1f)
         {
             journey += Time.deltaTime * speed;
             camera.transform.position = Vector3.Lerp(start, end, journey);
-            yield return null; // Bir sonraki frame'e kadar bekle
+            yield return null;
         }
         if(isInInitialPosition)
         {
@@ -87,7 +82,6 @@ public class Canvas : MonoBehaviour
             isInInitialPosition = true;
             parallelButton.SetActive(true);
         }
-        // Pozisyon tam olarak hedefe ayarlanýr
         camera.transform.position = end;
     }
 }

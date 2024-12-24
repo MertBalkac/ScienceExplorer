@@ -15,28 +15,18 @@ public class TemperatureController : MonoBehaviour
 
     private void Start()
     {
-        // Particle System'in MainModule'üne eriþim
         mainModule = liquidParticleSystem.main;
-
-        // Slider ve text ayarlarý
         temperatureText.text = $"{temperatureSlider.value:F0}";
-        exValue = temperatureSlider.value; // Baþlangýç deðeri atanýyor
+        exValue = temperatureSlider.value;
         temperatureSlider.onValueChanged.AddListener(OnTemperatureChanged);
     }
 
     public void OnTemperatureChanged(float value)
     {
-        // Slider deðerini yuvarla ve güncelle
-        value = Mathf.Clamp(value, 25f, 80f); // Aralýðý sýnýrlýyoruz
-        float delta = value - exValue; // Deðiþim miktarý
-
-        // Start Speed'i güncelle
-        mainModule.startSpeed = Mathf.Clamp(mainModule.startSpeed.constant + delta / 10f, 0.1f, 20f); // Hýz aralýðý
-
-        // Eski deðeri güncelle
+        value = Mathf.Clamp(value, 25f, 80f);
+        float delta = value - exValue;
+        mainModule.startSpeed = Mathf.Clamp(mainModule.startSpeed.constant + delta / 10f, 0.1f, 20f);
         exValue = value;
-
-        // Slider deðerini text'e yazdýr
         temperatureText.text = $"{value:F0}";
     }
 }

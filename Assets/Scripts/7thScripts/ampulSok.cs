@@ -16,7 +16,7 @@ public class ampulSok : MonoBehaviour
             {
                 if (hit.transform == transform) // Bu GameObject'e týklandý mý?
                 {
-                    EmissionAndBloomControl.ampulsok();
+                    EmissionAndBloomControl.RemoveBulb();
                 }
             }
         }

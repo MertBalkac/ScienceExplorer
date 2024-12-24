@@ -5,13 +5,13 @@ using UnityEngine.UI;
 
 public class CameraSwitchController : MonoBehaviour
 {
-    public Transform targetPosition1;  // Ýlk hedef konum
-    public Transform targetPosition2;  // Ýkinci hedef konum
-    public Transform targetPosition3;  // Üçüncü hedef konum
-    public float moveSpeed = 2.0f;     // Hareket hýzý
-    private bool isMoving = false;     // Hareketin durumu
-    private Vector3 targetPosition;    // Hedef konum
-    private int currentTargetIndex = 1; // Mevcut hedef pozisyonun indeksi
+    public Transform targetPosition1;  
+    public Transform targetPosition2;  
+    public Transform targetPosition3;  
+    public float moveSpeed = 2.0f;     
+    private bool isMoving = false;     
+    private Vector3 targetPosition;    
+    private int currentTargetIndex = 1; 
     public GameObject canvas1;
     public GameObject canvas2;
     public GameObject canvas3;
@@ -26,12 +26,11 @@ public class CameraSwitchController : MonoBehaviour
 
     public void OnButtonClick()
     {
-        // Pozisyonlar arasýnda geçiþ yap
         currentTargetIndex++;
 
         if (currentTargetIndex > 3)
         {
-            currentTargetIndex = 1; // Ýlk pozisyona dön
+            currentTargetIndex = 1; 
         }
 
         switch (currentTargetIndex)
@@ -56,17 +55,14 @@ public class CameraSwitchController : MonoBehaviour
                 break;
         }
 
-        isMoving = true;  // Hareketi baþlat
+        isMoving = true;
     }
 
     void Update()
     {
         if (isMoving)
         {
-            // Kamerayý smooth bir þekilde yeni konuma taþý
             transform.position = Vector3.Lerp(transform.position, targetPosition, moveSpeed * Time.deltaTime);
-
-            // Kameranýn hedefe yaklaþmasý durumunda hareketi durdur
             if (Vector3.Distance(transform.position, targetPosition) < 0.1f)
             {
                 isMoving = false;

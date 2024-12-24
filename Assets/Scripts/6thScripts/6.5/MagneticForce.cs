@@ -22,15 +22,11 @@ public class MagneticForce : MonoBehaviour
         MagneticPole otherMagneticPole = otherMagnet.GetComponent<MagneticPole>();
         Vector3 direction = otherMagnet.position - transform.position;
         float distance = direction.magnitude;
-
-        // Kuvvetin büyüklüðünü hesapla (ters kare yasasý)
         Vector3 force = direction.normalized * magneticForce / (distance * distance);
-
-        // Kutuplara göre kuvvet yönünü belirle
         if (magneticPole.isNorthPole == otherMagneticPole.isNorthPole)
-            force = -force; // Ayný kutuplar iter
+            force = -force;
         else
-            force = force; // Zýt kutuplar çeker
+            force = force;
 
         rb.AddForce(force);
     }

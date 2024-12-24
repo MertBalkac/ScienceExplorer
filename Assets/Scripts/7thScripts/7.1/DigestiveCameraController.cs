@@ -41,7 +41,6 @@ public class DigestiveCameraController : MonoBehaviour
             }
         }
 
-        // Hangi kamera hedeflenecek?
         foreach (GameObject cam in cameras)
         {
             if (cam.name == buttonName)
@@ -57,7 +56,6 @@ public class DigestiveCameraController : MonoBehaviour
             StartCoroutine(organInformationsAndCanvas(organ,buttonName));
         }
 
-        // Geçiþ baþlat
         if (targetCameraTransform != null)
         {
             isTransitioning = true;

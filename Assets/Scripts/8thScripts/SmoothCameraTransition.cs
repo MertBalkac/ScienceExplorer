@@ -2,37 +2,33 @@ using UnityEngine;
 
 public class SmoothCameraTransition : MonoBehaviour
 {
-    public Transform positionA; // Ýlk pozisyon
-    public Transform positionB; // Ýkinci pozisyon
-    public float transitionSpeed = 2f; // Geçiþ hýzý
+    public Transform positionA;
+    public Transform positionB;
+    public float transitionSpeed = 2f; 
 
-    private bool movingToB = true; // Hangi pozisyona gidileceðini kontrol eder
-    private Transform targetPosition; // Hedef pozisyon
-    private Coroutine transitionCoroutine; // Aktif geçiþ coroutine'ini saklar
+    private bool movingToB = true;
+    private Transform targetPosition;
+    private Coroutine transitionCoroutine;
 
     public GameObject canvas1;
     public GameObject canvas2;
 
     void Start()
     {
-        // Kamerayý baþlangýç pozisyonuna ayarla
         transform.position = positionA.position;
-        targetPosition = positionB; // Ýlk geçiþ hedefi B pozisyonu olacak
+        targetPosition = positionB;
     }
 
     public void TogglePosition()
     {
-        // Hedef pozisyonu deðiþtir
         targetPosition = movingToB ? positionB : positionA;
         movingToB = !movingToB;
 
-        // Olasý aktif hareketi durdur
         if (transitionCoroutine != null)
         {
             StopCoroutine(transitionCoroutine);
         }
 
-        // Yeni hareketi baþlat
         transitionCoroutine = StartCoroutine(SmoothTransition());
     }
 
@@ -45,9 +41,7 @@ public class SmoothCameraTransition : MonoBehaviour
             transform.position = Vector3.Lerp(transform.position, targetPosition.position, transitionSpeed * Time.deltaTime);
             yield return null;
         }
-
-        // Hedef pozisyona tam olarak oturt
         transform.position = targetPosition.position;
-        transitionCoroutine = null; // Geçiþ tamamlandý
+        transitionCoroutine = null;
     }
 }

@@ -11,11 +11,6 @@ public class Orbit : MonoBehaviour
         InitialVelocity();
     }
 
-    private void Update()
-    {
-
-    }
-
     private void FixedUpdate()
     {
         Gravity();

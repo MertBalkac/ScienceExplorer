@@ -2,21 +2,20 @@ using UnityEngine;
 
 public class CameraShake : MonoBehaviour
 {
-    public float shakeIntensity = 0.5f; // Sallanma þiddeti
-    public float shakeFrequency = 1.0f; // Sallanma frekansý
-    private Vector3 originalPosition; // Kameranýn baþlangýç pozisyonu
-    public bool isShaking = false; // Kameranýn sallanýp sallanmadýðýný kontrol eder
+    public float shakeIntensity = 0.5f; 
+    public float shakeFrequency = 1.0f; 
+    private Vector3 originalPosition; 
+    public bool isShaking = false; 
 
     void Start()
     {
-        originalPosition = transform.localPosition; // Kameranýn baþlangýç pozisyonunu sakla
+        originalPosition = transform.localPosition; 
     }
 
     void Update()
     {
         if (isShaking)
         {
-            // Rastgele bir sallanma hareketi oluþtur
             Vector3 shakeOffset = new Vector3(
                 Random.Range(-shakeIntensity, shakeIntensity),
                 Random.Range(-shakeIntensity, shakeIntensity),
@@ -30,12 +29,12 @@ public class CameraShake : MonoBehaviour
     public void StartShake(float duration)
     {
         isShaking = true;
-        Invoke("StopShake", duration); // Belirtilen süre sonunda sallanmayý durdur
+        Invoke("StopShake", duration);
     }
 
     private void StopShake()
     {
         isShaking = false;
-        transform.localPosition = originalPosition; // Kamerayý eski konumuna geri döndür
+        transform.localPosition = originalPosition;
     }
 }

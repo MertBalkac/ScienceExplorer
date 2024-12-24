@@ -4,24 +4,22 @@ using TMPro;
 
 public class RigidbodyForceToggler : MonoBehaviour
 {
-    public Rigidbody rb; // Objeye eklenen Rigidbody
-    public Slider forceSlider; // UI'deki kuvvet slider'ý
-    public TextMeshProUGUI forceText; // Kuvvet deðerini göstermek için TextMeshPro
+    public Rigidbody rb; 
+    public Slider forceSlider; 
+    public TextMeshProUGUI forceText; 
     public Slider massSlider;
     public TextMeshProUGUI massText;
-    private float appliedForce; // Uygulanacak kuvvet
+    private float appliedForce; 
     private float mass;
 
     void Start()
     {
         Time.timeScale = 1.0f;
-        // Rigidbody bileþenini kontrol et
         if (rb == null)
         {
             Debug.LogError("Rigidbody bileþeni bulunamadý!");
         }
 
-        // Baþlangýç kuvvetini slider'dan al
         if (forceSlider != null)
         {
             appliedForce = forceSlider.value;
@@ -32,29 +30,24 @@ public class RigidbodyForceToggler : MonoBehaviour
             rb.mass = massSlider.value;
         }
 
-        // Yerçekimini aktif tutmak
         if (rb != null)
         {
-            rb.useGravity = true; // Yerçekimini aktif tut
+            rb.useGravity = true;
         }
 
-        // Drag ve Angular Drag'i sýfýrla
         if (rb != null)
         {
-            rb.drag = 0f; // Sürüklenmeyi kaldýr
-            rb.angularDrag = 0f; // Açýsal sürüklenmeyi kaldýr
-            rb.useGravity = true; // Yerçekimini aktif tut
+            rb.drag = 0f; 
+            rb.angularDrag = 0f; 
+            rb.useGravity = true; 
         }
     }
 
     void Update()
     {
-        // Slider'daki kuvveti sürekli güncelle
         if (forceSlider != null)
         {
             appliedForce = forceSlider.value;
-
-            // TextMeshPro'da kuvvet deðerini güncelle
             if (forceText != null)
             {
                 forceText.text = "Force: " + appliedForce.ToString("F1");
@@ -74,8 +67,6 @@ public class RigidbodyForceToggler : MonoBehaviour
         if (!rb.isKinematic && gameObject.name != "Ball2")
         {
             appliedForce = forceSlider.value;
-
-            // Sürekli kuvvet uygula (yavaþ hýzlanma)
             rb.AddForce(new Vector3(0,-appliedForce,-appliedForce), ForceMode.Force);
         }
     }
@@ -84,14 +75,11 @@ public class RigidbodyForceToggler : MonoBehaviour
     {
         if (rb != null)
         {
-            // isKinematic durumunu deðiþtir
             rb.isKinematic = !rb.isKinematic;
             Debug.Log($"Rigidbody isKinematic durumu: {rb.isKinematic}");
 
-            // Rigidbody'ye belirlenen kuvveti uygula
-            if (!rb.isKinematic) // Sadece dinamik durumdaysa kuvvet uygula
+            if (!rb.isKinematic) 
             {
-                // Kuvveti -Z eksenine doðru uygula
                 if (gameObject.name == "Ball2")
                 {
                     rb.AddForce(Vector3.back * appliedForce, ForceMode.Impulse);

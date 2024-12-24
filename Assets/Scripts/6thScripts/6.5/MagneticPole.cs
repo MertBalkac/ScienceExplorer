@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class MagneticPole : MonoBehaviour
 {
-    public bool isNorthPole = true; // Baþlangýçta Kuzey Kutbu
+    public bool isNorthPole = true;
     private Renderer sphereRenderer;
 
     void Start()
@@ -13,13 +13,12 @@ public class MagneticPole : MonoBehaviour
 
     void OnMouseDown()
     {
-        isNorthPole = !isNorthPole; // Kutuplarý deðiþtir
+        isNorthPole = !isNorthPole;
         UpdateColor();
     }
 
     void UpdateColor()
     {
-        // Kuzey kutbu ise kýrmýzý, güney kutbu ise mavi
         sphereRenderer.material.color = isNorthPole ? Color.red : Color.blue;
     }
 }

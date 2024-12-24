@@ -2,18 +2,18 @@ using UnityEngine;
 
 public class EarthquakeSimulation : MonoBehaviour
 {
-    public float intensity = 1.0f; // Deprem büyüklüðü
-    public float frequency = 1.0f; // Sarsýntý frekansý
-    public float duration = 5.0f; // Deprem süresi
-    public CameraShake cameraShake; // Kamera shake scripti
+    public float intensity = 1.0f; 
+    public float frequency = 1.0f; 
+    public float duration = 5.0f; 
+    public CameraShake cameraShake; 
 
-    private float elapsedTime = 0.0f; // Geçen süre
-    private bool isShaking = false; // Depremin aktif olup olmadýðýný kontrol eder
-    private Vector3 originalPosition; // Plane objesinin baþlangýç pozisyonu
+    private float elapsedTime = 0.0f; 
+    private bool isShaking = false; 
+    private Vector3 originalPosition; 
 
     void Start()
     {
-        originalPosition = transform.position; // Plane objesinin baþlangýç pozisyonunu sakla
+        originalPosition = transform.position; 
     }
 
     void Update()
@@ -24,22 +24,21 @@ public class EarthquakeSimulation : MonoBehaviour
 
             if (elapsedTime < duration)
             {
-                ShakePlane(); // Deprem devam ederken sarsýntýyý uygula
+                ShakePlane();
             }
             else
             {
-                StopEarthquake(); // Deprem süresi bitince durdur
+                StopEarthquake(); 
             }
         }
     }
 
     public void StartEarthquake()
     {
-        if (isShaking) return; // Deprem zaten çalýþýyorsa ikinci kez baþlama
+        if (isShaking) return; 
         isShaking = true;
         elapsedTime = 0.0f;
 
-        // Kamera shake baþlat
         if (cameraShake != null)
         {
             cameraShake.StartShake(duration);
@@ -48,7 +47,6 @@ public class EarthquakeSimulation : MonoBehaviour
 
     private void ShakePlane()
     {
-        // Plane objesini rastgele bir þekilde salla
         Vector3 shakeOffset = new Vector3(
             Mathf.PerlinNoise(Time.time * frequency, 0.0f) * 2 - 1,
             Mathf.PerlinNoise(0.0f, Time.time * frequency) * 2 - 1,
@@ -61,12 +59,11 @@ public class EarthquakeSimulation : MonoBehaviour
     private void StopEarthquake()
     {
         isShaking = false;
-        transform.position = originalPosition; // Plane objesini baþlangýç pozisyonuna geri döndür
+        transform.position = originalPosition; 
     }
 
     void OnCollisionStay(Collision collision)
     {
-        // Plane üzerinde yer alan Rigidbody'lere kuvvet uygula
         if (isShaking)
         {
             Rigidbody rb = collision.rigidbody;

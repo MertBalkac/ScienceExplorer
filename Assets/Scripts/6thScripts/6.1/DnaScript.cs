@@ -8,7 +8,6 @@ public class DnaScript : MonoBehaviour
     [SerializeField] private TMP_Text talkingText;
     [SerializeField] private TMP_Text talkingText2;
     [SerializeField] private float typingSpeed = 0.05f;
-
     [SerializeField] GameObject dnaCopy;
     [SerializeField] GameObject protein;
     [SerializeField] GameObject arrow1;
@@ -16,7 +15,6 @@ public class DnaScript : MonoBehaviour
     [SerializeField] GameObject rnaText;
     [SerializeField] GameObject proteinText;
     [SerializeField] GameObject infoText;
-    // Start is called before the first frame update
 
     void Start()
     {
@@ -30,7 +28,6 @@ public class DnaScript : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         dnaCopy.SetActive(true);
         rnaText.SetActive(true);
-        //dnaCopy anim
         yield return new WaitForSeconds(3f);
         yield return StartCoroutine(TypeSentence2("Translation"));
         yield return new WaitForSeconds(0.5f);
@@ -38,29 +35,26 @@ public class DnaScript : MonoBehaviour
         proteinText.SetActive(true);
         infoText.SetActive(true);
         yield return new WaitForSeconds(2f);
-
-
-
     }
 
     IEnumerator TypeSentence(string sentence)
     {
-        talkingText.text = ""; // Önceki metni temizle
+        talkingText.text = ""; 
         arrow1.SetActive(true);
         foreach (char letter in sentence.ToCharArray())
         {
-            talkingText.text += letter; // Her bir harfi sýrayla ekle
-            yield return new WaitForSeconds(typingSpeed); // Harfler arasýndaki gecikme süresi
+            talkingText.text += letter; 
+            yield return new WaitForSeconds(typingSpeed);
         }
     }
     IEnumerator TypeSentence2(string sentence)
     {
-        talkingText2.text = ""; // Önceki metni temizle
+        talkingText2.text = "";
         arrow2.SetActive(true);
         foreach (char letter in sentence.ToCharArray())
         {
-            talkingText2.text += letter; // Her bir harfi sýrayla ekle
-            yield return new WaitForSeconds(typingSpeed); // Harfler arasýndaki gecikme süresi
+            talkingText2.text += letter;
+            yield return new WaitForSeconds(typingSpeed); 
         }
     }
 }
