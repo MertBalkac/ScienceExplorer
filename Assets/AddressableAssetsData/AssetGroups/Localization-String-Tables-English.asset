@@ -29,6 +29,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 962c82893b03fd04db22f1f44c5d6dc0
+    m_Address: EightGradeStringTableCollection_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c7ae3e64e1b6e844f8392a1e982b0d5b
     m_Address: SixthGradeTableCollection_en
     m_ReadOnly: 1

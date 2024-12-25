@@ -40,6 +40,12 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec042792f21cf1343bd089eed9320262
+    m_Address: Assets/Localization/EightGradeStringTableCollection/EightGradeStringTableCollection
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 5357e09514ee0b84eb503be3878f5050, type: 2}
   m_SchemaSet:
