@@ -2853,7 +2853,6 @@ GameObject:
   - component: {fileID: 1290710820}
   - component: {fileID: 1290710819}
   - component: {fileID: 1290710818}
-  - component: {fileID: 1290710817}
   m_Layer: 0
   m_Name: Rope1
   m_TagString: Untagged
@@ -2974,18 +2973,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 108
   m_CollisionDetection: 0
---- !u!114 &1290710817
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1290710810}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa7c9bda2fefb804c813a23918b3680b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!120 &1290710818
 LineRenderer:
   serializedVersion: 2
@@ -4194,7 +4181,6 @@ GameObject:
   - component: {fileID: 1632929222}
   - component: {fileID: 1632929221}
   - component: {fileID: 1632929220}
-  - component: {fileID: 1632929219}
   m_Layer: 0
   m_Name: Rope2
   m_TagString: Untagged
@@ -4315,18 +4301,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 108
   m_CollisionDetection: 0
---- !u!114 &1632929219
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1632929212}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa7c9bda2fefb804c813a23918b3680b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!120 &1632929220
 LineRenderer:
   serializedVersion: 2
