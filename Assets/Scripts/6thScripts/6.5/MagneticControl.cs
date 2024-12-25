@@ -32,19 +32,19 @@ public class MagneticControl : MonoBehaviour
     void OnMass1Changed(float value)
     {
         magnet1.mass = value;
-        massText1.text = $"Mass of Left Ball: {value:F2} kg"; 
+        massText1.text = $"{value:F2} kg"; 
     }
 
     void OnMass2Changed(float value)
     {
         magnet2.mass = value;
-        massText2.text = $"Mass of Right Ball: {value:F2} kg"; 
+        massText2.text = $"{value:F2} kg"; 
     }
 
     void OnMagneticForceChanged(float value)
     {
         magneticForceValueScript.magneticForce = value;
-        magneticForceText.text = $"Magnetic Force: {value:F2}";
+        magneticForceText.text = $"{value:F2}";
     }
     public void CloseInfoPanel()
     {

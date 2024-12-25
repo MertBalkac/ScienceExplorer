@@ -50,7 +50,7 @@ public class RigidbodyForceToggler : MonoBehaviour
             appliedForce = forceSlider.value;
             if (forceText != null)
             {
-                forceText.text = "Force: " + appliedForce.ToString("F1");
+                forceText.text = appliedForce.ToString("F1");
             }
         }
 
@@ -59,7 +59,7 @@ public class RigidbodyForceToggler : MonoBehaviour
             rb.mass = massSlider.value;
             if (massText != null)
             {
-                massText.text = "Mass: " + rb.mass.ToString() + "kg";
+                massText.text = rb.mass.ToString() + "kg";
             }
         }
 

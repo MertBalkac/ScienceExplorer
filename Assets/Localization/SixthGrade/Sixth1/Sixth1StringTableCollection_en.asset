@@ -1,0 +1,348 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Sixth1StringTableCollection_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 6eed0772c4d287149aea865cd4a7fb78, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 68649299968
+    m_Localized: 'ANIMAL CELL
+
+
+      Animal cells contain a wide variety of organelles
+      to help them carry out their functions.
+
+
+      Function: A cell is the basic
+      structural and functional unit of an organism and is often called the "building
+      block of life."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534846189568
+    m_Localized: 'NUCLEUS
+
+
+      The nucleus is a large membrane-bound organelle
+      that contains the genetic information of eukaryotic cells.
+
+
+      Function:
+      The nucleus stores information in the form of DNA and controls the activities
+      of the cell by selectively transcribing RNA, which exits via the nuclear pores.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 671412727808
+    m_Localized: 'PLASMA MEMBRANE
+
+
+      The plasma membrane is a lipid bilayer,
+      which is mostly composed of phospholipid molecules that have polar and nonpolar
+      parts.
+
+
+      Function: The plasma membrane surrounds and protects the cytoplasm
+      while allowing the passage of certain materials in and out of the cell.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 736822898688
+    m_Localized: 'ENDOPLASMIC RETICULUM
+
+
+      The endoplasmic reticulum (ER) is
+      a network of membrane-enclosed sacs and tubules in a cell. It extends from
+      the outer nuclear membrane throughout the cytoplasm.
+
+
+      Function: Ribosomes
+      deposit proteins into the lumen of the rough ER, where they can be modified.
+      Transport vesicles then take the modified proteins to the nearby Golgi body,
+      where they are processed further and sorted for transport.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 808730046464
+    m_Localized: 'GOLGI APPARATUS
+
+
+      The Golgi body (Golgi apparatus, Golgi
+      complex) is a membrane-bound organelle located in the cytoplasm of eukaryotic
+      cells. Animal cells usually have one or several Golgi bodies, whereas plant
+      cells can have hundreds.
+
+
+      Function: The Golgi body receives proteins,
+      synthesized by ribosomes on the rough endoplasmic reticulum, via transport
+      vesicles. Enzymes in the cisternae modify these proteins and pack them into
+      vesicles that bud off the Golgi body and transport the proteins to different
+      areas in the cell.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 867425136640
+    m_Localized: "MITOCHONDRIA\n\nMitochondria are membrane-bound organelles located
+      in the cytoplasm of eukaryotic cells. Each mitochondrion consists of an outer
+      membrane and an inner membrane with a space between them, called the intermembrane
+      space.\r\n\nFunction: Mitochondria generate adenosine triphosphate (ATP)\u2014the
+      cell's main source of energy\u2014via aerobic respiration, and as a result,
+      they are known as the 'power plants' of the cell."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1069800304640
+    m_Localized: 'RIBOSOMES
+
+
+      Cells contain a large number of small organelles
+      called ribosomes. Ribosomes are made mostly of rRNA (ribosomal ribonucleic
+      acid). The primary function of ribosomes is protein synthesis.
+
+
+      Function:
+      The primary function of ribosomes is protein synthesis.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1149676630016
+    m_Localized: 'CENTROSOME
+
+
+      The centrosome is a membrane-less organelle
+      in the cytoplasm of eukaryotic animal cells. It acts as the main microtubule-organizing
+      center (MTOC) and plays a key role in cell division.
+
+
+      Function: The
+      centrosome organizes microtubules, maintaining cell shape and enabling chromosome
+      separation during mitosis. It contains two centrioles that duplicate and move
+      to opposite poles to form the mitotic spindle.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1255071100928
+    m_Localized: "VESICLES\n\nTransport vesicles fuse with and arise from the edges
+      of the Golgi body\u2019s cisternae.\r\n\nFunction: Transport vesicles carry
+      fully processed proteins throughout the cell or to the plasma membrane for
+      export. Transport vesicles also distribute lipids, hormones, and other cellular
+      products from the smooth ER throughout the cell."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1509912817664
+    m_Localized: 'CELL WALL
+
+
+      The cell wall of the plant cell is external to
+      the plasma membrane. Plants can have three cell wall layers: a thin and flexible
+      primary cell wall composed of polysaccharides, a thicker secondary cell wall
+      composed of cellulose, and an outer middle lamella composed of pectins.
+
+
+      Function:
+      The cell wall protects the cell; maintains its shape; and helps facilitate
+      the passage of water, nutrients, gases, and wastes into and out of the cell.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1657019641856
+    m_Localized: 'CENTRAL VACUOLE
+
+
+      The central vacuole is a large membrane-bound
+      organelle located in the cytoplasm of plant cells. In most mature plant cells,
+      there is one central vacuole that takes up 30 to 80% of the cell''s volume.
+
+
+      Function:
+      The vacuole stores much of the plant cell''s water, storage molecules, and
+      enzymes.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1910770839552
+    m_Localized: 'CHROLOPLAST
+
+
+      Chloroplasts are specialized, membrane-bound
+      organelles located in the cytoplasm of plant cells that carry out photosynthesis.
+      Plant cells can have anywhere between one and a hundred chloroplasts, which
+      move around the cell and can divide to replicate themselves.
+
+
+      Function:
+      Chloroplasts carry out photosynthesis within plant cells. They are also involved
+      in the plant''s synthesis of fatty acids and amino acids and its immune response.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1966685106176
+    m_Localized: 'GOLGI APPARATUS
+
+
+      The Golgi body (Golgi apparatus, Golgi
+      complex) is a membrane-bound organelle located in the cytoplasm of eukaryotic
+      cells. Animal cells usually have one or several Golgi bodies, whereas plant
+      cells can have hundreds.
+
+
+      Function: The Golgi body receives proteins,
+      synthesized by ribosomes on the rough endoplasmic reticulum, via transport
+      vesicles. Enzymes in the cisternae modify these proteins and pack them into
+      vesicles that bud off the Golgi body and transport the proteins to different
+      areas in the cell.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2094913368064
+    m_Localized: "MITOCHONDRIA\n\nMitochondria are membrane-bound organelles located
+      in the cytoplasm of eukaryotic cells. Each mitochondrion consists of an outer
+      membrane and an inner membrane with a space between them, called the intermembrane
+      space.\r\n\nFunction: Mitochondria generate adenosine triphosphate (ATP)\u2014the
+      cell's main source of energy\u2014via aerobic respiration, and as a result,
+      they are known as the 'power plants' of the cell."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2142892011520
+    m_Localized: 'NUCLEUS
+
+
+      The nucleus is a large membrane-bound organelle
+      that contains the genetic information of eukaryotic cells.
+
+
+      Function:
+      The nucleus stores information in the form of DNA and controls the activities
+      of the cell by selectively transcribing RNA, which exits via the nuclear pores.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2242322182144
+    m_Localized: 'PLASMA MEMBRANE
+
+
+      The plasma membrane is a lipid bilayer,
+      which is mostly composed of phospholipid molecules that have polar and nonpolar
+      parts.
+
+
+      Function: The plasma membrane surrounds and protects the cytoplasm
+      while allowing the passage of certain materials in and out of the cell.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2296424509440
+    m_Localized: 'RIBOSOMES
+
+
+      Cells contain a large number of small organelles
+      called ribosomes. Ribosomes are made mostly of rRNA (ribosomal ribonucleic
+      acid). The primary function of ribosomes is protein synthesis.
+
+
+      Function:
+      The primary function of ribosomes is protein synthesis.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2348672954368
+    m_Localized: 'LYSOSOME
+
+
+      Lysosome is a small, membrane-bound organelle
+      found in eukaryotic cells that contains enzymes for breaking down various molecules.
+
+
+      Function:
+      Lysosomes digest and recycle cellular waste, damaged organelles, and foreign
+      substances. They achieve this by using hydrolytic enzymes that break down proteins,
+      lipids, carbohydrates, and nucleic acids, maintaining cellular health.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2505976131584
+    m_Localized: 'PLANT CELL
+
+
+      Plant cells have a cell wall and use organelles
+      called chloroplasts to carry out photosynthesis.
+
+
+      Function: A cell is
+      the basic structural and functional unit of an organism and is often called
+      the "building block of life."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2683013509120
+    m_Localized: Nucleus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2757550485504
+    m_Localized: Plasma Membrane
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2884130385920
+    m_Localized: Endoplasmic Reticulum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3027395227648
+    m_Localized: Golgi Apparatus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3161768144896
+    m_Localized: Mitochondria
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3244379156480
+    m_Localized: Ribosomes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3329355755520
+    m_Localized: Centrosome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3405981495296
+    m_Localized: Vesicles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3587057987584
+    m_Localized: Animal Cell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3649406316544
+    m_Localized: Plant Cell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3719795126272
+    m_Localized: Cell Wall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3881380687872
+    m_Localized: Central Vacuole
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3998963806208
+    m_Localized: Chloroplast
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4164185829376
+    m_Localized: Plasma Membrane
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4432684199936
+    m_Localized: Lysosome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5948304338944
+    m_Localized: 'PLANT CELL
+
+
+      Plant cells have a cell wall and use organelles
+      called chloroplasts to carry out photosynthesis.
+
+
+      Function: A cell is
+      the basic structural and functional unit of an organism and is often called
+      the "building block of life."'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Eight3StringTableCollection_tr-TR
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: tr-TR
+  m_SharedData: {fileID: 11400000, guid: f06915580b657bf46a8ca90d31559e08, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 294311243776
+    m_Localized: "<b>Depreme Haz\u0131rlanmak \u0130\xE7in Ne Yapmal\u0131?</b>\n\n<b>*</b>
+      Evinizdeki g\xFCvenli noktalar\u0131 belirleyin ve tatbikatlar yap\u0131n.\n<b>*</b>
+      Bir acil durum kiti haz\u0131rlay\u0131n (su, yiyecek, ilk yard\u0131m malzemeleri
+      vb.).\n<b>*</b> A\u011F\u0131r mobilya ve raflar\u0131 duvarlara sabitleyin.\n<b>*</b>
+      Aile \xFCyeleriyle birlikte bir acil durum plan\u0131 olu\u015Fturun.\n<b>*</b>
+      Binan\u0131z\u0131n yap\u0131sal g\xFCvenli\u011Fini kontrol edin.\n<b>*</b>
+      Aile \xFCyelerinin ileti\u015Fim bilgilerini kolayca eri\u015Filebilir tutun.\nM\xFClk\xFCn\xFCz\xFC
+      korumak i\xE7in deprem sigortas\u0131 yapt\u0131r\u0131n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 497122619392
+    m_Localized: "Depremi Ba\u015Flat"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 341845291008
+    m_Localized: "<b>Deprem S\u0131ras\u0131nda Ne Yapmal\u0131?</b>\n\n<b>*</b>
+      Sakin olun, h\u0131zl\u0131 ve bilin\xE7li hareket edin.\n<b>*</b> Ba\u015F\u0131n\u0131z\u0131
+      koruyarak sa\u011Flam bir masan\u0131n alt\u0131na s\u0131\u011F\u0131n\u0131n
+      veya \xE7\xF6melin.\n<b>*</b> Pencerelerden ve a\u011F\u0131r nesnelerden uzak
+      durun.\n<b>*</b> Asans\xF6rleri kullanmay\u0131n veya merdivenlere ko\u015Fmay\u0131n.\n<b>*</b>
+      A\xE7\u0131k havadaysan\u0131z a\u011Fa\xE7lardan, binalardan ve elektrik hatlar\u0131ndan
+      uzakla\u015F\u0131n.\n<b>*</b> Ara\xE7 kullan\u0131yorsan\u0131z g\xFCvenli
+      bir yerde durun ve arac\u0131n i\xE7inde kal\u0131n.\n<b>*</b> M\xFCmk\xFCnse
+      elektrik ve gaz vanalar\u0131n\u0131 kapat\u0131n.\n<b>*</b> Enkaz alt\u0131nda
+      kal\u0131rsan\u0131z a\u011Fz\u0131n\u0131z\u0131 kapat\u0131n, hareketsiz
+      kal\u0131n ve yard\u0131m \xE7a\u011F\u0131r\u0131n."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

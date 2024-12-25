@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Sixth1StringTableCollection Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Sixth1StringTableCollection
+  m_TableCollectionNameGuidString: 6eed0772c4d287149aea865cd4a7fb78
+  m_Entries:
+  - m_Id: 68649299968
+    m_Key: key_animalcell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534846189568
+    m_Key: key_nucleus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 671412727808
+    m_Key: key_plasmamembrane
+    m_Metadata:
+      m_Items: []
+  - m_Id: 736822898688
+    m_Key: key_endoplasmicreticulum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 808730046464
+    m_Key: key_golgiapparatus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 867425136640
+    m_Key: key_mitochondria
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1069800304640
+    m_Key: key_ribosomes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1149676630016
+    m_Key: key_centrosome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1255071100928
+    m_Key: key_vesicles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1509912817664
+    m_Key: key_cellwall2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1657019641856
+    m_Key: key_centralvacuole2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1910770839552
+    m_Key: key_chloroplast2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1966685106176
+    m_Key: key_golgiapparatus2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2094913368064
+    m_Key: key_mitochondria2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2142892011520
+    m_Key: key_nucleus2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2242322182144
+    m_Key: key_plasmamembrane2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2296424509440
+    m_Key: key_ribosomes2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2348672954368
+    m_Key: key_lysosome2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2505976131584
+    m_Key: key_plantcell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2683013509120
+    m_Key: key_nucleusbutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2757550485504
+    m_Key: key_plasmamebranebutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2884130385920
+    m_Key: key_endoplasmicreticulumbutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3027395227648
+    m_Key: key_golgiapparatusbutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3161768144896
+    m_Key: key_mitochondriabutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3244379156480
+    m_Key: key_ribosomesbutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3329355755520
+    m_Key: key_centrosomebutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3405981495296
+    m_Key: key_vesiclesbutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3587057987584
+    m_Key: key_animalcellbutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3649406316544
+    m_Key: key_plantcellbutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3719795126272
+    m_Key: key_cellwallbutton2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3881380687872
+    m_Key: key_centralvacuolebutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3998963806208
+    m_Key: key_chloroplastbutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4164185829376
+    m_Key: key_plasmamembranebutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4432684199936
+    m_Key: key_lysosomebutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5948304338944
+    m_Key: key_plantsystem
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8594281534446108674
+  references:
+    version: 2
+    RefIds:
+    - rid: 8594281534446108674
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1735110735983

@@ -13,7 +13,7 @@ public class SpeedTracker : MonoBehaviour
 
         if (speedText != null)
         {
-            speedText.text = "Speed: " + speed.ToString("F3") + " m/s";
+            speedText.text = speed.ToString("F3") + " m/s";
         }
     }
 }

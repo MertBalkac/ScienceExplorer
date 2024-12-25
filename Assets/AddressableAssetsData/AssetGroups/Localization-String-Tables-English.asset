@@ -23,8 +23,32 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c0ce6e0caf0d7a46966d2bc7ca8f34b
+    m_Address: Sixth5StringTableCollection_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c76bee04bc61c74fa084e8747778765
+    m_Address: Seventh3StringTableCollection_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1f3a6d438fb18e64dbb93eaf39f6fb8b
     m_Address: MenuStringTableCollection_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d9b33c55cfd0014e86e0e2038263f54
+    m_Address: Eight2StringTableCollection_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6904aaca692efec4697f53f487f5a1f2
+    m_Address: Eight3StringTableCollection_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
@@ -35,14 +59,56 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ac1c305c6f514942a5a41aa4595081d
+    m_Address: Sixth1StringTableCollection_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a28fc74690f221a4bb9bfe7df062c82d
+    m_Address: Seventh2StringTableCollection_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a37d7b03158e0e94f87f21dbdaefb19f
+    m_Address: Sixth4StringTableCollection_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b6578118e965a834ea1a898d73358253
+    m_Address: Sixth2StringTableCollection_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c7ae3e64e1b6e844f8392a1e982b0d5b
     m_Address: SixthGradeTableCollection_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d0d284f3594aa1d48ad88fe3229954f0
+    m_Address: Eight1StringTableCollection_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dae651d86ee90ef42afdd762415a2cb5
+    m_Address: Seventh1StringTableCollection_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ea110a882ff67c043bc6782a8ce0fa37
     m_Address: SelectGradeStringTableCollection_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fdb9f911da26930438942a594f750d3f
+    m_Address: Sixth3StringTableCollection_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en

@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Eight2StringTableCollection_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: dd680d3ad0017034b8cf0885161068c2, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 13427093504
+    m_Localized: '<b>DNA is a double helix.</b>
+
+
+      Adenine and Thymine are hydrogen
+      bonded.
+
+      Guanine and Cytosine are hydrogen bonded.
+
+
+      <b>Adenine
+      and Guanine</b>
+
+      They are nitrogenous bases of the purine class with
+      two rings.
+
+
+      <b>Thymine and Cytosine</b>
+
+      Primidine class nitrogenous
+      bases with one ring.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 897913532416
+    m_Localized: Next Lab
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1279838466048
+    m_Localized: Interphase is the active portion of the cell cycle that includes
+      the G1, S, and G2 phases, where the cell grows, replicates its DNA, and prepares
+      for mitosis, respectively. Interphase was formerly called the "resting phase,"
+      but the cell in interphase is not simply dormant.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1304161234944
+    m_Localized: Prophase is the first stage of cell division in both mitosis and
+      meiosis. Beginning after interphase, DNA has already been replicated when the
+      cell enters prophase. The main occurrences in prophase are the condensation
+      of the chromatin reticulum and the disappearance of the nucleolus.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1374675873792
+    m_Localized: Metaphase is a stage of mitosis in the eukaryotic cell cycle in
+      which chromosomes are at their second-most condensed and coiled stage.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1422994255872
+    m_Localized: Anaphase is the stage of mitosis after the process of metaphase,
+      when replicated chromosomes are split and the newly-copied chromosomes are
+      moved to opposite poles of the cell.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1464861798400
+    m_Localized: Telophase is the final stage in both meiosis and mitosis in a eukaryotic
+      cell. During telophase, the effects of prophase and prometaphase are reversed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1500421107712
+    m_Localized: The cell is the basic structural and functional unit of all forms
+      of life. Every cell consists of cytoplasm enclosed within a membrane; many
+      cells contain organelles, each with a specific function.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2342456995840
+    m_Localized: Next Stage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2440364634112
+    m_Localized: Previous Lab
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

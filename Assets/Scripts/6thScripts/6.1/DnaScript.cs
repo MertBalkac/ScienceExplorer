@@ -16,37 +16,64 @@ public class DnaScript : MonoBehaviour
     [SerializeField] GameObject proteinText;
     [SerializeField] GameObject infoText;
 
+    // LocalizationManager'a eriþim için referans
+    private LocalizationManager _localizationManager;
+
     void Start()
     {
+        // Sahnede bir LocalizationManager olduðunu varsayarak buluyoruz.
+        _localizationManager = FindObjectOfType<LocalizationManager>();
+
         StartCoroutine(dnaPlay());
     }
 
     IEnumerator dnaPlay()
     {
+        // Önce sahnede 2 saniye bekleyelim
         yield return new WaitForSeconds(2f);
-        yield return StartCoroutine(TypeSentence("Transcription"));
+
+        // Mevcut dile göre kelimeleri belirleyelim
+        var currentLanguage = _localizationManager.GetCurrentLanguage();
+        string transcriptionText = currentLanguage == LanguageType.English
+                                   ? "Transcription"
+                                   : "Transkripsiyon";
+        string translationText = currentLanguage == LanguageType.English
+                                 ? "Translation"
+                                 : "Translasyon";
+
+        // 1) Transcription veya Transkripsiyon
+        yield return StartCoroutine(TypeSentence(transcriptionText));
         yield return new WaitForSeconds(0.5f);
+
+        // Bu kýsýmda DNA’nýn kopyalanma objelerini aktif ediyoruz
         dnaCopy.SetActive(true);
         rnaText.SetActive(true);
+
         yield return new WaitForSeconds(3f);
-        yield return StartCoroutine(TypeSentence2("Translation"));
+
+        // 2) Translation veya Translasyon
+        yield return StartCoroutine(TypeSentence2(translationText));
         yield return new WaitForSeconds(0.5f);
+
+        // Proteinle ilgili objeleri gösteriyoruz
         protein.SetActive(true);
         proteinText.SetActive(true);
         infoText.SetActive(true);
+
         yield return new WaitForSeconds(2f);
     }
 
     IEnumerator TypeSentence(string sentence)
     {
-        talkingText.text = ""; 
+        talkingText.text = "";
         arrow1.SetActive(true);
         foreach (char letter in sentence.ToCharArray())
         {
-            talkingText.text += letter; 
+            talkingText.text += letter;
             yield return new WaitForSeconds(typingSpeed);
         }
     }
+
     IEnumerator TypeSentence2(string sentence)
     {
         talkingText2.text = "";
@@ -54,7 +81,7 @@ public class DnaScript : MonoBehaviour
         foreach (char letter in sentence.ToCharArray())
         {
             talkingText2.text += letter;
-            yield return new WaitForSeconds(typingSpeed); 
+            yield return new WaitForSeconds(typingSpeed);
         }
     }
 }

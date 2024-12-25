@@ -26,6 +26,18 @@ MonoBehaviour:
     m_Localized: TR
     m_Metadata:
       m_Items: []
+  - m_Id: 727176451272704
+    m_Localized: Credits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 727434317082624
+    m_Localized: 'Near East University Students:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 727954402390016
+    m_Localized: "Near East University \xA9 2024"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -1,0 +1,269 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Sixth1StringTableCollection_tr-TR
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: tr-TR
+  m_SharedData: {fileID: 11400000, guid: 6eed0772c4d287149aea865cd4a7fb78, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 68649299968
+    m_Localized: "HAYVAN H\xDCCRES\u0130\n\nHayvan h\xFCcreleri, i\u015Flevlerini
+      yerine getirmelerine yard\u0131mc\u0131 olmak i\xE7in \xE7ok \xE7e\u015Fitli
+      organeller i\xE7erir.\n\n\u0130\u015Flev: H\xFCcre, bir organizman\u0131n temel
+      yap\u0131sal ve i\u015Flevsel birimidir ve genellikle \u201Cya\u015Fam\u0131n
+      yap\u0131 ta\u015F\u0131\u201D olarak adland\u0131r\u0131l\u0131r."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534846189568
+    m_Localized: "N\xDCKLEUS\n\n\xC7ekirdek, \xF6karyotik h\xFCcrelerin genetik bilgilerini
+      i\xE7eren, zara ba\u011Fl\u0131 b\xFCy\xFCk bir organeldir.\n\n\u0130\u015Flevi:
+      \xC7ekirdek, DNA formundaki bilgileri depolar ve n\xFCkleer porlardan \xE7\u0131kan
+      RNA'y\u0131 se\xE7ici olarak transkribe ederek h\xFCcrenin faaliyetlerini kontrol
+      eder."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 671412727808
+    m_Localized: "PLAZMA ZARI\n\nPlazma zar\u0131, \xE7o\u011Funlukla polar ve polar
+      olmayan k\u0131s\u0131mlara sahip fosfolipid molek\xFCllerinden olu\u015Fan
+      bir lipid \xE7ift tabakas\u0131d\u0131r.\n\n\u0130\u015Flevi: Plazma zar\u0131
+      sitoplazmay\u0131 \xE7evreler ve korurken belirli maddelerin h\xFCcre i\xE7ine
+      ve d\u0131\u015F\u0131na ge\xE7i\u015Fine izin verir."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 736822898688
+    m_Localized: "ENDOPLAZMIK RETIKULUM\n\nEndoplazmik retikulum (ER), bir h\xFCcrede
+      zarla \xE7evrili keseler ve t\xFCb\xFCllerden olu\u015Fan bir a\u011Fd\u0131r.
+      D\u0131\u015F n\xFCkleer membrandan sitoplazma boyunca uzan\u0131r.\n\n\u0130\u015Flevi:
+      Ribozomlar proteinleri, modifiye edilebilecekleri kaba ER l\xFCmenine b\u0131rak\u0131r.
+      Ta\u015F\u0131ma vezik\xFClleri daha sonra modifiye edilmi\u015F proteinleri
+      yak\u0131ndaki Golgi g\xF6vdesine g\xF6t\xFCr\xFCr, burada daha fazla i\u015Flenir
+      ve ta\u015F\u0131ma i\xE7in ayr\u0131l\u0131rlar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 808730046464
+    m_Localized: "GOLGI AYGITI\n\nGolgi cisimci\u011Fi (Golgi aparat\u0131, Golgi
+      kompleksi) \xF6karyotik h\xFCcrelerin sitoplazmas\u0131nda bulunan zara ba\u011Fl\u0131
+      bir organeldir. Hayvan h\xFCcrelerinde genellikle bir veya birka\xE7 Golgi
+      cisimci\u011Fi bulunurken, bitki h\xFCcrelerinde y\xFCzlerce olabilir.\n\n\u0130\u015Flevi:
+      Golgi g\xF6vdesi, kaba endoplazmik retikulumdaki ribozomlar taraf\u0131ndan
+      sentezlenen proteinleri ta\u015F\u0131ma vezik\xFClleri arac\u0131l\u0131\u011F\u0131yla
+      al\u0131r. Sisternadaki enzimler bu proteinleri modifiye eder ve Golgi g\xF6vdesinden
+      ayr\u0131lan ve proteinleri h\xFCcrenin farkl\u0131 b\xF6lgelerine ta\u015F\u0131yan
+      vezik\xFCllere paketler."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 867425136640
+    m_Localized: "M\u0130TOKONDR\u0130\n\nMitokondri, \xF6karyotik h\xFCcrelerin
+      sitoplazmas\u0131nda bulunan zara ba\u011Fl\u0131 organellerdir. Her mitokondriyon
+      bir d\u0131\u015F zar ve aralar\u0131nda zarlar aras\u0131 bo\u015Fluk olarak
+      adland\u0131r\u0131lan bir bo\u015Fluk bulunan bir i\xE7 zardan olu\u015Fur.\n\n\u0130\u015Flevi:
+      Mitokondri, aerobik solunum yoluyla h\xFCcrenin ana enerji kayna\u011F\u0131
+      olan adenozin trifosfat (ATP) \xFCretir ve sonu\xE7 olarak h\xFCcrenin 'enerji
+      santralleri' olarak bilinirler."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1069800304640
+    m_Localized: "RIBOZOMLAR\n\nH\xFCcreler ribozom ad\u0131 verilen \xE7ok say\u0131da
+      k\xFC\xE7\xFCk organel i\xE7erir. Ribozomlar \xE7o\u011Funlukla rRNA'dan (ribozomal
+      ribon\xFCkleik asit) olu\u015Fur. Ribozomlar\u0131n birincil i\u015Flevi protein
+      sentezidir.\n\n\u0130\u015Flev: Ribozomlar\u0131n birincil i\u015Flevi protein
+      sentezidir."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1149676630016
+    m_Localized: "SENTROZOM\n\nSentrozom, \xF6karyotik hayvan h\xFCcrelerinin sitoplazmas\u0131nda
+      bulunan zars\u0131z bir organeldir. Ana mikrot\xFCb\xFCl-organizasyon merkezi
+      (MTOC) olarak g\xF6rev yapar ve h\xFCcre b\xF6l\xFCnmesinde \xF6nemli bir rol
+      oynar.\n\n\u0130\u015Flevi: Sentrozom mikrot\xFCb\xFClleri organize ederek
+      h\xFCcre \u015Feklini korur ve mitoz s\u0131ras\u0131nda kromozom ayr\u0131lmas\u0131n\u0131
+      sa\u011Flar. Mitotik mili olu\u015Fturmak i\xE7in \xE7o\u011Falan ve z\u0131t
+      kutuplara hareket eden iki sentriyol i\xE7erir."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1255071100928
+    m_Localized: "VEZ\u0130K\xDCLLER\n\nTa\u015F\u0131ma vezik\xFClleri Golgi cisimci\u011Finin
+      sisternalar\u0131 ile kayna\u015F\u0131r ve kenarlar\u0131ndan \xE7\u0131kar.\n\n\u0130\u015Flevi:
+      Ta\u015F\u0131ma vezik\xFClleri tamamen i\u015Flenmi\u015F proteinleri h\xFCcre
+      boyunca veya ihra\xE7 i\xE7in plazma membran\u0131na ta\u015F\u0131r. Ta\u015F\u0131ma
+      vezik\xFClleri ayr\u0131ca lipidleri, hormonlar\u0131 ve di\u011Fer h\xFCcresel
+      \xFCr\xFCnleri d\xFCz ER'den h\xFCcre boyunca da\u011F\u0131t\u0131r."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1509912817664
+    m_Localized: "H\xDCCRE DUVARI\n\nBitki h\xFCcresinin h\xFCcre duvar\u0131 plazma
+      zar\u0131n\u0131n d\u0131\u015F\u0131ndad\u0131r. Bitkiler \xFC\xE7 h\xFCcre
+      duvar\u0131 katman\u0131na sahip olabilir: polisakkaritlerden olu\u015Fan ince
+      ve esnek bir birincil h\xFCcre duvar\u0131, sel\xFClozdan olu\u015Fan daha
+      kal\u0131n bir ikincil h\xFCcre duvar\u0131 ve pektinlerden olu\u015Fan bir
+      d\u0131\u015F orta lamel.\n\n\u0130\u015Flevi: H\xFCcre duvar\u0131 h\xFCcreyi
+      korur; \u015Feklini korur; ve suyun, besinlerin, gazlar\u0131n ve at\u0131klar\u0131n
+      h\xFCcre i\xE7ine ve d\u0131\u015F\u0131na ge\xE7i\u015Fini kolayla\u015Ft\u0131rmaya
+      yard\u0131mc\u0131 olur."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1657019641856
+    m_Localized: "MERKEZ\u0130 KOFUL\n\nMerkezi vakuol, bitki h\xFCcrelerinin sitoplazmas\u0131nda
+      bulunan membrana ba\u011Fl\u0131 b\xFCy\xFCk bir organeldir. \xC7o\u011Fu olgun
+      bitki h\xFCcresinde, h\xFCcre hacminin %30 ila 80'ini kaplayan bir merkezi
+      vakuol vard\u0131r.\n\n\u0130\u015Flevi: Vakuol, bitki h\xFCcresinin suyunun,
+      depo molek\xFCllerinin ve enzimlerinin \xE7o\u011Funu depolar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1910770839552
+    m_Localized: "KROLOPLAST\n\nKloroplastlar, fotosentez yapan bitki h\xFCcrelerinin
+      sitoplazmas\u0131nda bulunan \xF6zelle\u015Fmi\u015F, zara ba\u011Fl\u0131
+      organellerdir. Bitki h\xFCcreleri, h\xFCcre i\xE7inde hareket eden ve kendilerini
+      \xE7o\u011Faltmak i\xE7in b\xF6l\xFCnebilen bir ila y\xFCz kloroplast aras\u0131nda
+      herhangi bir yere sahip olabilir.\n\n\u0130\u015Flevi: Kloroplastlar bitki
+      h\xFCcrelerinde fotosentezi ger\xE7ekle\u015Ftirir. Ayr\u0131ca bitkinin ya\u011F
+      asitleri ve amino asit sentezinde ve ba\u011F\u0131\u015F\u0131kl\u0131k tepkisinde
+      rol oynarlar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1966685106176
+    m_Localized: "GOLGI AYGITI\n\nGolgi cisimci\u011Fi (Golgi aparat\u0131, Golgi
+      kompleksi) \xF6karyotik h\xFCcrelerin sitoplazmas\u0131nda bulunan zara ba\u011Fl\u0131
+      bir organeldir. Hayvan h\xFCcrelerinde genellikle bir veya birka\xE7 Golgi
+      cisimci\u011Fi bulunurken, bitki h\xFCcrelerinde y\xFCzlerce olabilir.\n\n\u0130\u015Flevi:
+      Golgi g\xF6vdesi, kaba endoplazmik retikulumdaki ribozomlar taraf\u0131ndan
+      sentezlenen proteinleri ta\u015F\u0131ma vezik\xFClleri arac\u0131l\u0131\u011F\u0131yla
+      al\u0131r. Sisternadaki enzimler bu proteinleri modifiye eder ve Golgi g\xF6vdesinden
+      ayr\u0131lan ve proteinleri h\xFCcrenin farkl\u0131 b\xF6lgelerine ta\u015F\u0131yan
+      vezik\xFCllere paketler."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2094913368064
+    m_Localized: "M\u0130TOKONDR\u0130\n\nMitokondri, \xF6karyotik h\xFCcrelerin
+      sitoplazmas\u0131nda bulunan zara ba\u011Fl\u0131 organellerdir. Her mitokondriyon
+      bir d\u0131\u015F zar ve aralar\u0131nda zarlar aras\u0131 bo\u015Fluk olarak
+      adland\u0131r\u0131lan bir bo\u015Fluk bulunan bir i\xE7 zardan olu\u015Fur.\n\n\u0130\u015Flevi:
+      Mitokondri, aerobik solunum yoluyla h\xFCcrenin ana enerji kayna\u011F\u0131
+      olan adenozin trifosfat (ATP) \xFCretir ve sonu\xE7 olarak h\xFCcrenin 'enerji
+      santralleri' olarak bilinirler."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2142892011520
+    m_Localized: "N\xDCKLEUS\n\n\xC7ekirdek, \xF6karyotik h\xFCcrelerin genetik bilgilerini
+      i\xE7eren, zara ba\u011Fl\u0131 b\xFCy\xFCk bir organeldir.\n\n\u0130\u015Flevi:
+      \xC7ekirdek, DNA formundaki bilgileri depolar ve n\xFCkleer porlardan \xE7\u0131kan
+      RNA'y\u0131 se\xE7ici olarak transkribe ederek h\xFCcrenin faaliyetlerini kontrol
+      eder."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2242322182144
+    m_Localized: "PLAZMA ZARI\n\nPlazma zar\u0131, \xE7o\u011Funlukla polar ve polar
+      olmayan k\u0131s\u0131mlara sahip fosfolipid molek\xFCllerinden olu\u015Fan
+      bir lipid \xE7ift tabakas\u0131d\u0131r.\n\n\u0130\u015Flevi: Plazma zar\u0131
+      sitoplazmay\u0131 \xE7evreler ve korurken belirli maddelerin h\xFCcre i\xE7ine
+      ve d\u0131\u015F\u0131na ge\xE7i\u015Fine izin verir."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2296424509440
+    m_Localized: "RIBOZOMLAR\n\nH\xFCcreler ribozom ad\u0131 verilen \xE7ok say\u0131da
+      k\xFC\xE7\xFCk organel i\xE7erir. Ribozomlar \xE7o\u011Funlukla rRNA'dan (ribozomal
+      ribon\xFCkleik asit) olu\u015Fur. Ribozomlar\u0131n birincil i\u015Flevi protein
+      sentezidir.\n\n\u0130\u015Flev: Ribozomlar\u0131n birincil i\u015Flevi protein
+      sentezidir."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2348672954368
+    m_Localized: "L\u0130ZOZOM\n\nLizozom, \xF6karyotik h\xFCcrelerde bulunan ve
+      \xE7e\u015Fitli molek\xFClleri par\xE7alamak i\xE7in enzimler i\xE7eren k\xFC\xE7\xFCk,
+      membrana ba\u011Fl\u0131 bir organeldir.\n\n\u0130\u015Flevi: Lizozomlar h\xFCcresel
+      at\u0131klar\u0131, hasarl\u0131 organelleri ve yabanc\u0131 maddeleri sindirir
+      ve geri d\xF6n\xFC\u015Ft\xFCr\xFCr. Bunu proteinleri, lipitleri, karbonhidratlar\u0131
+      ve n\xFCkleik asitleri par\xE7alayan hidrolitik enzimler kullanarak ger\xE7ekle\u015Ftirir
+      ve h\xFCcresel sa\u011Fl\u0131\u011F\u0131 korurlar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2505976131584
+    m_Localized: "B\u0130TK\u0130 H\xDCCRES\u0130\n\nBitki h\xFCcreleri bir h\xFCcre
+      duvar\u0131na sahiptir ve fotosentez yapmak i\xE7in kloroplast ad\u0131 verilen
+      organelleri kullan\u0131r.\n\n\u0130\u015Flev: H\xFCcre, bir organizman\u0131n
+      temel yap\u0131sal ve i\u015Flevsel birimidir ve genellikle \u201Cya\u015Fam\u0131n
+      yap\u0131 ta\u015F\u0131\u201D olarak adland\u0131r\u0131l\u0131r."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2683013509120
+    m_Localized: "N\xFCkleus"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2757550485504
+    m_Localized: "Plasma Membran\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2884130385920
+    m_Localized: Endoplazmik Retikulum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3027395227648
+    m_Localized: "Golgi Ayg\u0131t\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3161768144896
+    m_Localized: Mitokondri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3244379156480
+    m_Localized: Ribozomlar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3329355755520
+    m_Localized: Sentrozom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3405981495296
+    m_Localized: "Vezik\xFCller"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3587057987584
+    m_Localized: "Hayvan H\xFCcresi"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3649406316544
+    m_Localized: "Bitki H\xFCcresi"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3719795126272
+    m_Localized: "H\xFCcre Duvar\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3881380687872
+    m_Localized: Merkezi Koful
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3998963806208
+    m_Localized: Kloroplast
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4164185829376
+    m_Localized: "Plazma Zar\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4432684199936
+    m_Localized: Lizozom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5948304338944
+    m_Localized: "B\u0130TK\u0130 H\xDCCRES\u0130\n\nBitki h\xFCcreleri bir h\xFCcre
+      duvar\u0131na sahiptir ve fotosentez yapmak i\xE7in kloroplast ad\u0131 verilen
+      organelleri kullan\u0131r.\n\n\u0130\u015Flev: H\xFCcre, bir organizman\u0131n
+      temel yap\u0131sal ve i\u015Flevsel birimidir ve genellikle \u201Cya\u015Fam\u0131n
+      yap\u0131 ta\u015F\u0131\u201D olarak adland\u0131r\u0131l\u0131r."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

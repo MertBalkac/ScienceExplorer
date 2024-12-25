@@ -1,0 +1,389 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Seventh1StringTableCollection_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 095cdd4d87d77b24b9578e6d83adc730, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 121224900608
+    m_Localized: Mouth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 257028075520
+    m_Localized: Salivary Glands
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290414735360
+    m_Localized: Esophagus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292029542400
+    m_Localized: Liver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 293606600704
+    m_Localized: Stomach
+    m_Metadata:
+      m_Items: []
+  - m_Id: 295515009024
+    m_Localized: Small Intestine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 297041735680
+    m_Localized: Large Instestine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298648154112
+    m_Localized: Rectum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 299889668096
+    m_Localized: Digestive System
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2068631859200
+    m_Localized: Skeleton System
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2848214560768
+    m_Localized: Skull
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2850060054528
+    m_Localized: Spine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2851570003968
+    m_Localized: Humerus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2853272891392
+    m_Localized: Radius
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2855177105408
+    m_Localized: Ulna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2856930324480
+    m_Localized: Rib Cage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2858658377728
+    m_Localized: Pelvis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2860025720832
+    m_Localized: Femur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2861330149376
+    m_Localized: Fibula
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2862663938048
+    m_Localized: Tibia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5492320579584
+    m_Localized: 'DIGESTIVE SYSTEM
+
+
+      The digestive system is the organ system
+      made up of the gastrointestinal tract, or GI tract (the hollow tube of organs
+      running from the mouth to the anus), as well as the accessory digestive organs
+      such as the teeth, tongue, salivary glands, liver, gallbladder and pancreas.
+      The function of the digestive system is to break down and absorb food, and
+      to excrete waste products.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5493352378368
+    m_Localized: 'MOUTH
+
+
+      The mouth is the beginning of the digestive tract
+      and vital for speech. Structures of the mouth include the lips, tongue, hard
+      and soft palates, salivary glands, gums, and teeth. The mouth is divided into
+      two sections. The vestibule, located between the cheeks and teeth, and the
+      oral cavity proper, which is inside the teeth.
+
+
+      Function: The main functions
+      of the mouth are eating and speaking.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5494694555648
+    m_Localized: "SALIVARY GLANDS\n\nThere are three paired sets of salivary glands
+      located around the oral cavity\u2014parotid, submandibular, and sublingual\u2014as
+      well as hundreds of minor salivary glands. The largest of the salivary glands
+      are the parotid glands. Saliva aids in lubrication of the oral cavity and plays
+      a role in digestion.\r\n\nFunction: Salivary glands produce saliva."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5495835406336
+    m_Localized: 'ESOPHAGUS
+
+
+      The esophagus connects the pharynx (immediately
+      located after the mouth) and the stomach. Typically around 10 inches long,
+      it descends behind the trachea and in front of the spinal column in the neck,
+      passing behind the left lung to pierce the diaphragm. The esophagus transports
+      food to the stomach for digestion.
+
+
+      Function: The esophagus transports
+      food to the stomach for digestion.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5497055948800
+    m_Localized: 'LIVER
+
+
+      The liver is located in the upper right section of
+      the abdominal cavity, below the diaphragm and above the stomach. The liver
+      has two lobes, the left and right lobes, which are divided into segments. The
+      liver plays many critical roles, including producing bile and cholesterol,
+      balancing glucose levels, and filtering blood.
+
+
+      Function: The liver
+      plays many critical roles, including producing bile and cholesterol, balancing
+      glucose levels, and filtering blood.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5498318434304
+    m_Localized: 'STOMACH
+
+
+      The stomach is the main digestive organ in the
+      body. Shaped like a J and located in the upper left region of the abdominal
+      cavity, it receives undigested food from the esophagus, breaks it down with
+      digestive juices, and then empties into the small intestine. The inner lining
+      of the stomach is protected by a layer of mucosa tissue.
+
+
+      Function:
+      The stomach is the main digestive organ in the body, and receives undigested
+      food from the esophagus, breaks it down with digestive juices, and then empties
+      into the small intestine.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5499702554624
+    m_Localized: 'SMALL INTESTINE
+
+
+      The small intestine is located in the abdomen.
+      It receives partially digested food from the stomach, then secretes digestive
+      enzymes and absorbs nutrients as food travels through its folds. In all, the
+      large intestine can be 15 feet or more in length. It has three sections: the
+      duodenum, jejunum, and ileum.
+
+
+      Function: The small intestine aids in
+      digestion. It receives partially digested food from the stomach, then secretes
+      digestive enzymes and absorbs nutrients as food travels through its folds.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5501128617984
+    m_Localized: 'LARGE INTESTINE
+
+
+      The large intestine receives digested food
+      from the ileum (the last part of the small intestine), then extracts nutrients
+      and water and prepares it for excretion. The large intestine includes the cecum,
+      appendix, colon, rectum and anal canal. The colon has three sections: ascending
+      colon, transverse colon, and descending colon.
+
+
+      Function: The large
+      intestine aids in digestion. It receives digested food from the ileum (the
+      last part of the small intestine), then extracts nutrients and water and prepares
+      it for excretion.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5502428852224
+    m_Localized: 'RECTUM
+
+
+      The rectum is part of the large intestine, located
+      between the sigmoid colon and the anal canal. The rectum is a muscular tube
+      about 5 inches long that receives and holds waste from the sigmoid colon. When
+      there is enough pressure in the rectum, nerves in the rectum signal the brain
+      and the rectal muscles contract.
+
+
+      Function: The rectum receives fecal
+      material from the colon, stores it until defecation.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5503607451648
+    m_Localized: 'SKELETON SYSTEM
+
+
+      The skeletal system is the organ system
+      consisting of bones, and connective tissue including ligaments, tendons, and
+      cartilage. It is designed to support and protect your body''s tissues and internal
+      organs.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5505067069440
+    m_Localized: 'SKULL
+
+
+      The skull is the name for the bones that make up
+      the head. There are four types of bones in the skull: cranial bones, facial
+      bones, ear ossicles, and a hyoid bone. The opening at the bottom of the skull,
+      the foramen magnum, is the hole through which the spinal cord connects to the
+      brain.
+
+
+      Function: The purpose of the skull is to protect the brain and
+      provide a structure for muscles of the scalp and face.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5506283417600
+    m_Localized: 'SPINE
+
+
+      The spine is the name for all of the bones, muscles,
+      tendons, connective and other tissue that extend from the skull base to the
+      tailbone. This spine is sometimes referred to as the backbone, or vertebral
+      column, or spinal column.
+
+
+      Function: The spine gives your body structure
+      and support so that you can move and bend with flexibility, as well as protecting
+      and housing the spinal cord.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5507587846144
+    m_Localized: 'HUMERUS
+
+
+      The humerus is the long bone of the arm that runs
+      from the shoulder joint to the elbow joint. It connects the scapula in the
+      shoulder to the two bones of the forearm, the radius and ulna. The humerus
+      supports movement in the arm and shoulder.
+
+
+      Function: The humerus supports
+      movement in the arm and shoulder.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5508875497472
+    m_Localized: 'RADIUS
+
+
+      The radius, or radial bone, is one of the two long
+      bones in the forearm. It extends from the lateral side of the elbow, where
+      it articulates with the both the humerus and ulna, to the thumb side of the
+      wrist, where it articulates with the carpal bones, and the head of the ulna.
+
+
+      Function:
+      The radius allows the forearm and hand to pronate and supinate, flex and extend
+      at the elbow, and adduct, abduct, extend, flex, and circumduct the wrist.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5510322532352
+    m_Localized: 'ULNA
+
+
+      The ulna is one of the two bones of the forearm. It
+      runs parallel to radius. In anatomical position, the ulna sits medially in
+      the forearm. It forms the elbow joint with the humerus and radius. Although
+      the ulna travels to the wrist, it is not technically part of the wrist joint.
+      The ulna helps in pronation and supination of the forearm and hand.
+
+
+      Function:
+      The ulna helps in pronation and supination of the forearm and hand.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5511610183680
+    m_Localized: 'RIB CAGE
+
+
+      The rib cage is the protective enclosure of the
+      lungs, heart and great vessels. It is made up of the ribs, part of the vertebral
+      column, and the sternum.
+
+
+      Function: The rib cage protects the organs
+      in the chest, like the heart and lungs.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5512818143232
+    m_Localized: 'PELVIS
+
+
+      The pelvis (also known as the bony pelvis, or pelvic
+      girdle) is the name given to the bones that make up the basin-shaped protective
+      housing of the pelvic organs. They are the left and right ischium, ilium and
+      pubis, as well as the coccyx and sacrum.
+
+
+      Function: The pelvis protects
+      the pelvic organs, like the bladder, sex organs, and parts of the intestines,
+      as well as providing support and balance to the rest of the skeletal system.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5514118377472
+    m_Localized: 'FEMUR
+
+
+      The femur is the thigh bone which runs from the hip
+      to the knee. It''s the longest and strongest bone in the body and functions
+      to help you stand and move. It also supports many muscles, tendons, and ligaments,
+      as well as parts of the circulatory system.
+
+
+      Function: The femur functions
+      to help you stand and move. It also supports many muscles, tendons, and ligaments,
+      as well as parts of the circulatory system.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5515443777536
+    m_Localized: 'FIBULA
+
+
+      The fibula is the smaller of the two long bones
+      found in the calf. It runs parallel, and lateral to, the tibia. It extends
+      from the knee to the ankle. The fibula is one of the bones of the ankle joint,
+      but is not technically part of the knee joint, as it sits just below it and
+      plays no role in knee joint movement.
+
+
+      Function: The fibula, along with
+      the tibia, provides stability to the ankle joint.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8619589447680
+    m_Localized: 'TIBIA
+
+
+      The tibia is the larger of the two long bones found
+      in the calf. It runs parallel, and medial to, the fibula. It extends from the
+      knee to the ankle, and is one of the bones that forms the knee joint, and the
+      ankle joint.
+
+
+      Function: The main function of the tibia is to bear weight.'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

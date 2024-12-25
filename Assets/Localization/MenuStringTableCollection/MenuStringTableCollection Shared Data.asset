@@ -23,6 +23,18 @@ MonoBehaviour:
     m_Key: key_language
     m_Metadata:
       m_Items: []
+  - m_Id: 727176451272704
+    m_Key: key_credit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 727434317082624
+    m_Key: key_school
+    m_Metadata:
+      m_Items: []
+  - m_Id: 727954402390016
+    m_Key: key_copyright
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

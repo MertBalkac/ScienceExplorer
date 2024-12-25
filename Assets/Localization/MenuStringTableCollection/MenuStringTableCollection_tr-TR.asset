@@ -26,6 +26,18 @@ MonoBehaviour:
     m_Localized: EN
     m_Metadata:
       m_Items: []
+  - m_Id: 727176451272704
+    m_Localized: "Geli\u015Ftiriciler"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 727434317082624
+    m_Localized: "Yak\u0131n Do\u011Fu \xDCniversitesi \xD6\u011Frencileri:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 727954402390016
+    m_Localized: "Yak\u0131n Do\u011Fu \xDCniversitesi \xA9 2024"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

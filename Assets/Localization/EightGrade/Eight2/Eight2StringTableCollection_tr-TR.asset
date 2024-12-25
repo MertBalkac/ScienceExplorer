@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Eight2StringTableCollection_tr-TR
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: tr-TR
+  m_SharedData: {fileID: 11400000, guid: dd680d3ad0017034b8cf0885161068c2, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 13427093504
+    m_Localized: "<b>DNA \xE7ift sarmall\u0131d\u0131r.</b>\r\n\r\nAdenin ve Timin
+      hidrojen ba\u011F\u0131yla ba\u011Flan\u0131r.\r\nGuanin ve Sitozin hidrojen
+      ba\u011F\u0131na sahiptir.\r\n\r\n<b>Adenin ve Guanin</b>\r\n\u0130ki halkal\u0131
+      p\xFCrin s\u0131n\u0131f\u0131n\u0131n azotlu bazlar\u0131d\u0131r.\r\n\r\n<b>Timin
+      ve Sitozin</b>\r\nPrimidin s\u0131n\u0131f\u0131 tek halkal\u0131 azotlu bazlar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 897913532416
+    m_Localized: Sonraki Laboratuvar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1279838466048
+    m_Localized: "\u0130nterfaz, s\u0131ras\u0131yla h\xFCcrenin b\xFCy\xFCd\xFC\u011F\xFC,
+      DNA's\u0131n\u0131 kopyalad\u0131\u011F\u0131 ve mitoza haz\u0131rland\u0131\u011F\u0131
+      G1, S ve G2 evrelerini i\xE7eren h\xFCcre d\xF6ng\xFCs\xFCn\xFCn aktif k\u0131sm\u0131d\u0131r.
+      \u0130nterfaz eskiden \u201Cdinlenme faz\u0131\u201D olarak adland\u0131r\u0131l\u0131rd\u0131,
+      ancak interfazdaki h\xFCcre sadece uykuda de\u011Fildir."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1304161234944
+    m_Localized: "Profaz, hem mitoz hem de mayoz b\xF6l\xFCnmede h\xFCcre b\xF6l\xFCnmesinin
+      ilk a\u015Famas\u0131d\u0131r. \u0130nterfazdan sonra ba\u015Flayarak, h\xFCcre
+      profaza girdi\u011Finde DNA zaten replike olmu\u015Ftur. Profazdaki ana olaylar
+      kromatin retikulumunun yo\u011Funla\u015Fmas\u0131 ve n\xFCkleolusun kaybolmas\u0131d\u0131r."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1374675873792
+    m_Localized: "Metafaz, kromozomlar\u0131n ikinci en yo\u011Fun ve sarmal a\u015Famada
+      oldu\u011Fu \xF6karyotik h\xFCcre d\xF6ng\xFCs\xFCnde mitozun bir a\u015Famas\u0131d\u0131r."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1422994255872
+    m_Localized: "Anafaz, mitozun metafaz s\xFCrecinden sonraki a\u015Famas\u0131
+      olup, \xE7o\u011Falt\u0131lan kromozomlar\u0131n b\xF6l\xFCnd\xFC\u011F\xFC
+      ve yeni kopyalanan kromozomlar\u0131n h\xFCcrenin z\u0131t kutuplar\u0131na
+      ta\u015F\u0131nd\u0131\u011F\u0131 a\u015Famad\u0131r."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1464861798400
+    m_Localized: "Telofaz, \xF6karyotik bir h\xFCcrede hem mayoz hem de mitoz b\xF6l\xFCnmenin
+      son a\u015Famas\u0131d\u0131r. Telofaz s\u0131ras\u0131nda profaz ve prometafaz\u0131n
+      etkileri tersine d\xF6ner."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1500421107712
+    m_Localized: "H\xFCcre, t\xFCm ya\u015Fam formlar\u0131n\u0131n temel yap\u0131sal
+      ve i\u015Flevsel birimidir. Her h\xFCcre bir zar i\xE7ine al\u0131nm\u0131\u015F
+      sitoplazmadan olu\u015Fur; bir\xE7ok h\xFCcre, her biri belirli bir i\u015Fleve
+      sahip organeller i\xE7erir."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2342456995840
+    m_Localized: "Sonraki A\u015Fama"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2440364634112
+    m_Localized: "\xD6nceki Laboratuvar"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

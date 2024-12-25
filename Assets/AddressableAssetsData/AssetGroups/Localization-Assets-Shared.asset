@@ -22,6 +22,48 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 095cdd4d87d77b24b9578e6d83adc730
+    m_Address: Assets/Localization/SeventhGrade/Seventh1/Seventh1StringTableCollection
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d447c7fa94aa524d86c5e4c8ec91320
+    m_Address: Assets/Localization/SeventhGrade/Seventh3/Seventh3StringTableCollection
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 608d85d1333409a4d907e6fd7b200f6e
+    m_Address: Assets/Localization/EightGrade/Eight1/Eight1StringTableCollection
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 66cc1708b3646af4bb922d8f13dda13b
+    m_Address: Assets/Localization/SixthGrade/Sixth3/Sixth3StringTableCollection
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6eed0772c4d287149aea865cd4a7fb78
+    m_Address: Assets/Localization/SixthGrade/Sixth1/Sixth1StringTableCollection
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a6fcc96409148f4e96c9836f3482cd6
+    m_Address: Assets/Localization/SixthGrade/Sixth2/Sixth2StringTableCollection
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f8c041b6e10c6b4aafcebb6a05998eb
+    m_Address: Assets/Localization/SixthGrade/Sixth4/Sixth4StringTableCollection
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 93f06fdf9edab2644a1f74c272d30e10
     m_Address: Assets/Localization/SixthGradeStringTableCollection/SixthGradeTableCollection
       Shared Data.asset
@@ -40,8 +82,32 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd680d3ad0017034b8cf0885161068c2
+    m_Address: Assets/Localization/EightGrade/Eight2/Eight2StringTableCollection
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea616aca22064684a939dc1d56304971
+    m_Address: Assets/Localization/SeventhGrade/Seventh2/Seventh2StringTableCollection
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ec042792f21cf1343bd089eed9320262
     m_Address: Assets/Localization/EightGradeStringTableCollection/EightGradeStringTableCollection
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee1d032cf7309d44a8efd2a66c6520fb
+    m_Address: Assets/Localization/SixthGrade/Sixth5/Sixth5StringTableCollection
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f06915580b657bf46a8ca90d31559e08
+    m_Address: Assets/Localization/EightGrade/Eight3/Eight3StringTableCollection
       Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []

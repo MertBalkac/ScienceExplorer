@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Eight3StringTableCollection_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: f06915580b657bf46a8ca90d31559e08, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 294311243776
+    m_Localized: "<b>What to Do to Prepare for an Earthquake?</b>\n\n<b>*</b> Identify
+      safe spots in your home and practice drills.\n<b>*</b> Prepare an emergency
+      kit (water, food, first aid supplies, etc.).\n<b>*</b> Secure heavy furniture
+      and shelves to the walls.\n<b>*</b> Create an emergency plan with family members.\n<b>*</b>
+      Check the structural safety of your building.\n<b>*</b> Keep family members\u2019
+      contact information easily accessible.\n<b>*</b> Get earthquake insurance to
+      protect your property."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 497122619392
+    m_Localized: Start Earthquake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 341845291008
+    m_Localized: '<b>What to Do During an Earthquake?</b>
+
+
+      <b>*</b> Stay calm,
+      act quickly and consciously.
+
+      <b>*</b> Take cover under a sturdy table
+      or crouch while protecting your head.
+
+      <b>*</b> Stay away from windows
+      and heavy objects.
+
+      <b>*</b> Do not use elevators or rush to the stairs.
+
+      <b>*</b>
+      If outdoors, move away from trees, buildings, and power lines.
+
+      <b>*</b>
+      If driving, stop in a safe location and stay inside the vehicle.
+
+      <b>*</b>
+      If possible, turn off electricity and gas valves.
+
+      <b>*</b> If trapped
+      under debris, cover your mouth, stay still, and call for help.'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

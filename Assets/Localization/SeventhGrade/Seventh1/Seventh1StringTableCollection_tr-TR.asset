@@ -1,0 +1,305 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Seventh1StringTableCollection_tr-TR
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: tr-TR
+  m_SharedData: {fileID: 11400000, guid: 095cdd4d87d77b24b9578e6d83adc730, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 121224900608
+    m_Localized: "A\u011F\u0131z"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 257028075520
+    m_Localized: "T\xFCk\xFCr\xFCk Bezleri"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290414735360
+    m_Localized: "\xD6zofagus"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292029542400
+    m_Localized: "Karaci\u011Fer"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 293606600704
+    m_Localized: Mide
+    m_Metadata:
+      m_Items: []
+  - m_Id: 295515009024
+    m_Localized: "\u0130nce Ba\u011F\u0131rsak"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 297041735680
+    m_Localized: "Kal\u0131n Ba\u011F\u0131rsak"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298648154112
+    m_Localized: Rektum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 299889668096
+    m_Localized: Sindirim Sistemi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2068631859200
+    m_Localized: "\u0130skelet Sistemi"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2848214560768
+    m_Localized: "Kafatas\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2850060054528
+    m_Localized: Omurga
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2851570003968
+    m_Localized: "Kol Kemi\u011Fi"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2853272891392
+    m_Localized: "\xD6n Kol Kemi\u011Fi"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2855177105408
+    m_Localized: "Dirsek Kemi\u011Fi"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2856930324480
+    m_Localized: "G\xF6\u011F\xFCs Kafesi"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2858658377728
+    m_Localized: "Le\u011Fen Kemi\u011Fi"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2860025720832
+    m_Localized: "Uyluk Kemi\u011Fi"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2861330149376
+    m_Localized: "Bald\u0131r Kemi\u011Fi"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2862663938048
+    m_Localized: "Kaval Kemi\u011Fi"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5492320579584
+    m_Localized: "S\u0130ND\u0130R\u0130M S\u0130STEM\u0130\n\nSindirim sistemi,
+      gastrointestinal sistem veya GI kanal\u0131n\u0131n (a\u011F\u0131zdan an\xFCse
+      uzanan i\xE7i bo\u015F organ t\xFCp\xFC) yan\u0131 s\u0131ra di\u015Fler, dil,
+      t\xFCk\xFCr\xFCk bezleri, karaci\u011Fer, safra kesesi ve pankreas gibi yard\u0131mc\u0131
+      sindirim organlar\u0131ndan olu\u015Fan organ sistemidir. Sindirim sisteminin
+      i\u015Flevi g\u0131dalar\u0131 par\xE7alay\u0131p emmek ve at\u0131k \xFCr\xFCnleri
+      d\u0131\u015Far\u0131 atmakt\u0131r."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5493352378368
+    m_Localized: "A\u011EIZ\n\nA\u011F\u0131z, sindirim sisteminin ba\u015Flang\u0131c\u0131d\u0131r
+      ve konu\u015Fma i\xE7in hayati \xF6nem ta\u015F\u0131r. A\u011Fz\u0131n yap\u0131lar\u0131
+      aras\u0131nda dudaklar, dil, sert ve yumu\u015Fak damaklar, t\xFCk\xFCr\xFCk
+      bezleri, di\u015F etleri ve di\u015Fler bulunur. A\u011F\u0131z iki b\xF6l\xFCme
+      ayr\u0131lm\u0131\u015Ft\u0131r. Yanaklar ve di\u015Fler aras\u0131nda yer
+      alan vestib\xFCl ve di\u015Flerin i\xE7inde yer alan a\u011F\u0131z bo\u015Flu\u011Fu.\n\n\u0130\u015Flev:
+      A\u011Fz\u0131n ana i\u015Flevleri yemek yemek ve konu\u015Fmakt\u0131r."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5494694555648
+    m_Localized: "T\xDCK\xDCR\xDCK BEZLERI\n\nA\u011F\u0131z bo\u015Flu\u011Fu \xE7evresinde
+      parotis, submandibular ve sublingual olmak \xFCzere \xFC\xE7 \xE7ift t\xFCk\xFCr\xFCk
+      bezinin yan\u0131 s\u0131ra y\xFCzlerce k\xFC\xE7\xFCk t\xFCk\xFCr\xFCk bezi
+      bulunur. T\xFCk\xFCr\xFCk bezlerinin en b\xFCy\xFC\u011F\xFC parotis bezleridir.
+      T\xFCk\xFCr\xFCk a\u011F\u0131z bo\u015Flu\u011Funun ya\u011Flanmas\u0131na
+      yard\u0131mc\u0131 olur ve sindirimde rol oynar.\n\n\u0130\u015Flevi: T\xFCk\xFCr\xFCk
+      bezleri t\xFCk\xFCr\xFCk \xFCretir."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5495835406336
+    m_Localized: "\xD6ZOFAGUS\n\nYemek borusu yutak (a\u011F\u0131zdan hemen sonra
+      yer al\u0131r) ile mideyi birbirine ba\u011Flar. Tipik olarak yakla\u015F\u0131k
+      10 in\xE7 uzunlu\u011Funda olan yemek borusu, soluk borusunun arkas\u0131ndan
+      ve boyundaki omurgan\u0131n \xF6n\xFCnden a\u015Fa\u011F\u0131 iner ve sol
+      akci\u011Ferin arkas\u0131ndan ge\xE7erek diyafram\u0131 deler. \xD6zofagus
+      yiyecekleri sindirim i\xE7in mideye ta\u015F\u0131r.\n\n\u0130\u015Flevi: Yemek
+      borusu yiyecekleri sindirim i\xE7in mideye ta\u015F\u0131r."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5497055948800
+    m_Localized: "KARAC\u0130\u011EER\n\nKaraci\u011Fer, kar\u0131n bo\u015Flu\u011Funun
+      sa\u011F \xFCst b\xF6l\xFCm\xFCnde, diyafram\u0131n alt\u0131nda ve midenin
+      \xFCst\xFCnde yer al\u0131r. Karaci\u011Ferin sol ve sa\u011F lob olmak \xFCzere
+      iki lobu vard\u0131r ve bunlar segmentlere ayr\u0131lm\u0131\u015Ft\u0131r.
+      Karaci\u011Fer, safra ve kolesterol \xFCretimi, glikoz seviyelerinin dengelenmesi
+      ve kan\u0131n filtrelenmesi gibi bir\xE7ok kritik rol oynar.\n\n\u0130\u015Flev:
+      Karaci\u011Fer, safra ve kolesterol \xFCretmek, glikoz seviyelerini dengelemek
+      ve kan\u0131 filtrelemek de dahil olmak \xFCzere bir\xE7ok kritik rol oynar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5498318434304
+    m_Localized: "M\u0130DE\n\nMide v\xFCcuttaki ana sindirim organ\u0131d\u0131r.
+      J \u015Feklinde olan ve kar\u0131n bo\u015Flu\u011Funun sol \xFCst b\xF6lgesinde
+      yer alan mide, yemek borusundan sindirilmemi\u015F g\u0131dalar\u0131 al\u0131r,
+      sindirim sular\u0131yla par\xE7alar ve ard\u0131ndan ince ba\u011F\u0131rsa\u011Fa
+      bo\u015Falt\u0131r. Midenin i\xE7 astar\u0131 bir mukoza dokusu tabakas\u0131
+      ile korunur.\n\n\u0130\u015Flevi: Mide v\xFCcuttaki ana sindirim organ\u0131d\u0131r
+      ve sindirilmemi\u015F g\u0131dalar\u0131 yemek borusundan al\u0131r, sindirim
+      sular\u0131yla par\xE7alar ve ard\u0131ndan ince ba\u011F\u0131rsa\u011Fa bo\u015Falt\u0131r."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5499702554624
+    m_Localized: "\u0130NCE BA\u011EIRSAK\n\n\u0130nce ba\u011F\u0131rsak kar\u0131n
+      b\xF6lgesinde yer al\u0131r. Mideden k\u0131smen sindirilmi\u015F yiyecekleri
+      al\u0131r, ard\u0131ndan sindirim enzimleri salg\u0131lar ve yiyecekler k\u0131vr\u0131mlar\u0131ndan
+      ge\xE7erken besinleri emer. Kal\u0131n ba\u011F\u0131rsa\u011F\u0131n toplam
+      uzunlu\u011Fu 15 fit veya daha fazla olabilir. \xDC\xE7 b\xF6l\xFCm\xFC vard\u0131r:
+      duodenum, jejunum ve ileum.\n\n\u0130\u015Flevi: \u0130nce ba\u011F\u0131rsak
+      sindirime yard\u0131mc\u0131 olur. Mideden k\u0131smen sindirilmi\u015F yiyecekleri
+      al\u0131r, ard\u0131ndan sindirim enzimleri salg\u0131lar ve yiyecekler k\u0131vr\u0131mlar\u0131ndan
+      ge\xE7erken besinleri emer."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5501128617984
+    m_Localized: "KALIN BA\u011EIRSAK\n\nKal\u0131n ba\u011F\u0131rsak, ileumdan
+      (ince ba\u011F\u0131rsa\u011F\u0131n son k\u0131sm\u0131) sindirilmi\u015F
+      g\u0131dalar\u0131 al\u0131r, ard\u0131ndan besinleri ve suyu \xE7\u0131kar\u0131r
+      ve at\u0131l\u0131m i\xE7in haz\u0131rlar. Kal\u0131n ba\u011F\u0131rsak \xE7ekum,
+      apandis, kolon, rektum ve anal kanal\u0131 i\xE7erir. Kolonun \xFC\xE7 b\xF6l\xFCm\xFC
+      vard\u0131r: \xE7\u0131kan kolon, transvers kolon ve inen kolon.\n\n\u0130\u015Flevi:
+      Kal\u0131n ba\u011F\u0131rsak sindirime yard\u0131mc\u0131 olur. Sindirilmi\u015F
+      g\u0131dalar\u0131 ileumdan (ince ba\u011F\u0131rsa\u011F\u0131n son k\u0131sm\u0131)
+      al\u0131r, ard\u0131ndan besinleri ve suyu \xE7\u0131kar\u0131r ve at\u0131l\u0131m
+      i\xE7in haz\u0131rlar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5502428852224
+    m_Localized: "REKTUM\n\nRektum, sigmoid kolon ile anal kanal aras\u0131nda yer
+      alan kal\u0131n ba\u011F\u0131rsa\u011F\u0131n bir par\xE7as\u0131d\u0131r.
+      Rektum, sigmoid kolondan gelen at\u0131klar\u0131 alan ve tutan yakla\u015F\u0131k
+      5 in\xE7 uzunlu\u011Funda kasl\u0131 bir t\xFCpt\xFCr. Rektumda yeterli bas\u0131n\xE7
+      oldu\u011Funda, rektumdaki sinirler beyne sinyal g\xF6nderir ve rektal kaslar
+      kas\u0131l\u0131r.\n\n\u0130\u015Flevi: Rektum d\u0131\u015Fk\u0131 materyalini
+      kolondan al\u0131r, d\u0131\u015Fk\u0131lamaya kadar depolar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5503607451648
+    m_Localized: "\u0130SKELET S\u0130STEM\u0130\n\n\u0130skelet sistemi, kemikler
+      ve ba\u011Flar, tendonlar ve k\u0131k\u0131rdak dahil olmak \xFCzere ba\u011F
+      dokusundan olu\u015Fan organ sistemidir. V\xFCcudunuzun dokular\u0131n\u0131
+      ve i\xE7 organlar\u0131n\u0131 desteklemek ve korumak i\xE7in tasarlanm\u0131\u015Ft\u0131r."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5505067069440
+    m_Localized: "KAFATASI\n\nKafatas\u0131, kafay\u0131 olu\u015Fturan kemiklere
+      verilen isimdir. Kafatas\u0131nda d\xF6rt t\xFCr kemik vard\u0131r: kafatas\u0131
+      kemikleri, y\xFCz kemikleri, kulak kemik\xE7ikleri ve hyoid kemi\u011Fi. Kafatas\u0131n\u0131n
+      alt\u0131ndaki a\xE7\u0131kl\u0131k, foramen magnum, omurili\u011Fin beyne
+      ba\u011Fland\u0131\u011F\u0131 deliktir.\n\n\u0130\u015Flevi: Kafatas\u0131n\u0131n
+      amac\u0131 beyni korumak ve kafa derisi ve y\xFCz kaslar\u0131 i\xE7in bir
+      yap\u0131 sa\u011Flamakt\u0131r."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5506283417600
+    m_Localized: "OMURGA\n\nOmurga, kafatas\u0131 taban\u0131ndan kuyruk sokumuna
+      kadar uzanan kemik, kas, tendon, ba\u011F ve di\u011Fer dokular\u0131n t\xFCm\xFCne
+      verilen add\u0131r. Bu omurga bazen bel kemi\u011Fi, omur s\xFCtunu veya omurga
+      s\xFCtunu olarak da adland\u0131r\u0131l\u0131r.\n\n\u0130\u015Flevi: Omurga,
+      esnek bir \u015Fekilde hareket edebilmeniz ve b\xFCk\xFClebilmeniz i\xE7in
+      v\xFCcudunuza yap\u0131 ve destek sa\u011Flar, ayr\u0131ca omurili\u011Fi korur
+      ve bar\u0131nd\u0131r\u0131r."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5507587846144
+    m_Localized: "KOL KEM\u0130\u011E\u0130\n\nKol kemi\u011Fi (veya humerus), omuz
+      ekleminden dirsek eklemine kadar uzanan kolun uzun kemi\u011Fidir. Omuzdaki
+      k\xFCrek kemi\u011Fini \xF6n kolun iki kemi\u011Fi olan radius ve ulnaya ba\u011Flar.
+      Humerus, kol ve omuzdaki hareketi destekler.\n\n\u0130\u015Flevi: Humerus,
+      kol ve omuzdaki hareketi destekler."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5508875497472
+    m_Localized: "\xD6N KOL KEM\u0130\u011E\u0130\n\n\xD6n kol kemi\u011Fi ya da
+      radyal kemik, \xF6n kolda bulunan iki uzun kemikten biridir. Hem humerus hem
+      de ulna ile eklemlendi\u011Fi dirse\u011Fin yan taraf\u0131ndan, karpal kemikler
+      ve ulna ba\u015F\u0131 ile eklemlendi\u011Fi bile\u011Fin ba\u015Fparmak taraf\u0131na
+      kadar uzan\u0131r.\n\n\u0130\u015Flevi: Radius, \xF6nkol ve elin pronasyon
+      ve supinasyon yapmas\u0131n\u0131, dirsekte esneme ve uzama yapmas\u0131n\u0131
+      ve bile\u011Fi adduksiyon, abduksiyon, uzatma, esneme ve \xE7evreleme yapmas\u0131n\u0131
+      sa\u011Flar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5510322532352
+    m_Localized: "D\u0130RSEK KEM\u0130\u011E\u0130\n\nDirek kemi\u011Fi, \xF6n kolun
+      iki kemi\u011Finden biridir. Radius'a paralel uzan\u0131r. Anatomik pozisyonda
+      ulna \xF6n kolun medialinde yer al\u0131r. Humerus ve radius ile dirsek eklemini
+      olu\u015Fturur. Ulna bile\u011Fe do\u011Fru ilerlese de teknik olarak bilek
+      ekleminin bir par\xE7as\u0131 de\u011Fildir. Ulna, \xF6nkol ve elin pronasyon
+      ve supinasyonuna yard\u0131mc\u0131 olur.\n\n\u0130\u015Flev: Ulna, \xF6nkol
+      ve elin pronasyon ve supinasyonuna yard\u0131mc\u0131 olur."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5511610183680
+    m_Localized: "G\xF6\u011F\xFCs Kafesi\n\nG\xF6\u011F\xFCs kafesi akci\u011Ferlerin,
+      kalbin ve b\xFCy\xFCk damarlar\u0131n koruyucu muhafazas\u0131d\u0131r. Kaburgalar,
+      vertebral kolonun bir k\u0131sm\u0131 ve sternumdan olu\u015Fur.\n\n\u0130\u015Flevi:
+      G\xF6\u011F\xFCs kafesi, kalp ve akci\u011Ferler gibi g\xF6\u011F\xFCsteki
+      organlar\u0131 korur."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5512818143232
+    m_Localized: "LE\u011EEN KEM\u0130\u011E\u0130\n\nLe\u011Fen kemi\u011Fi(veya
+      Pelvis) (kemik pelvis veya pelvik ku\u015Fak olarak da bilinir), pelvik organlar\u0131n
+      \xE7anak \u015Feklindeki koruyucu muhafazas\u0131n\u0131 olu\u015Fturan kemiklere
+      verilen isimdir. Bunlar sol ve sa\u011F ischium, ilium ve pubis'in yan\u0131
+      s\u0131ra koksiks ve sakrumdur.\n\n\u0130\u015Flevi: Pelvis, mesane, cinsel
+      organlar ve ba\u011F\u0131rsak par\xE7alar\u0131 gibi pelvik organlar\u0131
+      korur ve iskelet sisteminin geri kalan\u0131na destek ve denge sa\u011Flar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5514118377472
+    m_Localized: "UYLUK KEM\u0130\u011E\u0130\n\nUyluk kemi\u011Fi(veya Femur) kal\xE7adan
+      dize kadar uzanan uyluk kemi\u011Fidir. V\xFCcuttaki en uzun ve en g\xFC\xE7l\xFC
+      kemiktir ve ayakta durman\u0131za ve hareket etmenize yard\u0131mc\u0131 olmak
+      i\xE7in i\u015Flev g\xF6r\xFCr. Ayr\u0131ca bir\xE7ok kas, tendon ve ba\u011F\u0131n
+      yan\u0131 s\u0131ra dola\u015F\u0131m sisteminin par\xE7alar\u0131n\u0131 da
+      destekler.\n\n\u0130\u015Flevi: Uyluk kemi\u011Fi ayakta durman\u0131za ve
+      hareket etmenize yard\u0131mc\u0131 olur. Ayr\u0131ca bir\xE7ok kas, tendon
+      ve ba\u011F\u0131n yan\u0131 s\u0131ra dola\u015F\u0131m sisteminin par\xE7alar\u0131n\u0131
+      da destekler."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5515443777536
+    m_Localized: "BALDIR KEM\u0130\u011E\u0130\n\nBald\u0131r kemi\u011Fi (veya fibula)
+      bald\u0131rda bulunan iki uzun kemikten daha k\xFC\xE7\xFCk olan\u0131d\u0131r.
+      Kaval kemi\u011Fine paralel ve onun yan\u0131ndan ge\xE7er. Dizden ayak bile\u011Fine
+      kadar uzan\u0131r. Fibula, ayak bile\u011Fi ekleminin kemiklerinden biridir,
+      ancak hemen alt\u0131nda yer ald\u0131\u011F\u0131 ve diz eklemi hareketinde
+      hi\xE7bir rol oynamad\u0131\u011F\u0131 i\xE7in teknik olarak diz ekleminin
+      bir par\xE7as\u0131 de\u011Fildir.\n\n\u0130\u015Flevi: Fibula, tibia ile birlikte
+      ayak bile\u011Fi eklemine stabilite sa\u011Flar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8619589447680
+    m_Localized: "KAVAL KEM\u0130\u011E\u0130\n\nKaval kemi\u011Fi(veya Tibia) bald\u0131rda
+      bulunan iki uzun kemikten daha b\xFCy\xFCk olan\u0131d\u0131r. Fibulaya paralel
+      ve onun medialinde uzan\u0131r. Dizden ayak bile\u011Fine kadar uzan\u0131r
+      ve diz eklemi ile ayak bile\u011Fi eklemini olu\u015Fturan kemiklerden biridir.\n\n\u0130\u015Flevi:
+      Kaval kemi\u011Finin ana i\u015Flevi a\u011F\u0131rl\u0131k ta\u015F\u0131makt\u0131r."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

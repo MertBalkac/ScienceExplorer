@@ -1,0 +1,188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Seventh1StringTableCollection Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Seventh1StringTableCollection
+  m_TableCollectionNameGuidString: 095cdd4d87d77b24b9578e6d83adc730
+  m_Entries:
+  - m_Id: 121224900608
+    m_Key: key_mouthbutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 257028075520
+    m_Key: key_salivaryglandsbutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290414735360
+    m_Key: key_esophagusbutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292029542400
+    m_Key: key_liverbutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 293606600704
+    m_Key: key_stomachbutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 295515009024
+    m_Key: key_smallintestinebutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 297041735680
+    m_Key: key_largeinstestinebutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298648154112
+    m_Key: key_rectumbutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 299889668096
+    m_Key: key_digestivesystembutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2068631859200
+    m_Key: key_skeletonsystembutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2848214560768
+    m_Key: key_skullbutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2850060054528
+    m_Key: key_spinebutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2851570003968
+    m_Key: key_humerusbutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2853272891392
+    m_Key: key_radiusbutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2855177105408
+    m_Key: key_ulnabutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2856930324480
+    m_Key: key_ribcagebutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2858658377728
+    m_Key: key_pelvisbutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2860025720832
+    m_Key: key_femurbutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2861330149376
+    m_Key: key_fibulabutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2862663938048
+    m_Key: key_tibiabutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5492320579584
+    m_Key: key_digestivesysteminfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5493352378368
+    m_Key: key_mouthinfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5494694555648
+    m_Key: key_salivaryinfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5495835406336
+    m_Key: key_esophagusinfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5497055948800
+    m_Key: key_liverinfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5498318434304
+    m_Key: key_stomachinfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5499702554624
+    m_Key: key_smallintestineinfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5501128617984
+    m_Key: key_largeintestineinfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5502428852224
+    m_Key: key_rectuminfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5503607451648
+    m_Key: key_skeletonsysteminfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5505067069440
+    m_Key: key_skullinfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5506283417600
+    m_Key: key_spineinfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5507587846144
+    m_Key: key_humerusinfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5508875497472
+    m_Key: key_radiusinfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5510322532352
+    m_Key: key_ulnainfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5511610183680
+    m_Key: key_ribcageinfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5512818143232
+    m_Key: key_pelvisinfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5514118377472
+    m_Key: key_femurinfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5515443777536
+    m_Key: key_fibulainfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8619589447680
+    m_Key: key_tibiainfo
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8594281534446108713
+  references:
+    version: 2
+    RefIds:
+    - rid: 8594281534446108713
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1735128000175

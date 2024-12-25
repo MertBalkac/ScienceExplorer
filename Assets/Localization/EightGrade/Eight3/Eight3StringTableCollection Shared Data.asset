@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Eight3StringTableCollection Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Eight3StringTableCollection
+  m_TableCollectionNameGuidString: f06915580b657bf46a8ca90d31559e08
+  m_Entries:
+  - m_Id: 294311243776
+    m_Key: key_earthquake1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 341845291008
+    m_Key: key_earthquake2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 497122619392
+    m_Key: key_startearthquakebutton
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8594281534446108736
+  references:
+    version: 2
+    RefIds:
+    - rid: 8594281534446108736
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1735132964185

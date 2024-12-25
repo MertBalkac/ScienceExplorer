@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Seventh3StringTableCollection Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Seventh3StringTableCollection
+  m_TableCollectionNameGuidString: 3d447c7fa94aa524d86c5e4c8ec91320
+  m_Entries:
+  - m_Id: 62072631296
+    m_Key: key_sunbutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 114975387648
+    m_Key: key_mercurybutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190460276736
+    m_Key: key_venusbutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227344986112
+    m_Key: key_earthbutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283976478720
+    m_Key: key_marsbutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 344869384192
+    m_Key: key_jupiterbutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 400032870400
+    m_Key: key_saturnbutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 471533170688
+    m_Key: key_uranusbutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 611551621120
+    m_Key: key_neptunebutton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1115614687232
+    m_Key: key_suninfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1229934637056
+    m_Key: key_mercuryinfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1326814670848
+    m_Key: key_venusinfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1394884030464
+    m_Key: key_earthinfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1461737041920
+    m_Key: key_marsinfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1521178718208
+    m_Key: key_jupiterinfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1679161372672
+    m_Key: key_saturninfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1680939757568
+    m_Key: key_uranusinfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1682332266496
+    m_Key: key_neptuneinfo
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8594281534446108704
+  references:
+    version: 2
+    RefIds:
+    - rid: 8594281534446108704
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1735121044293

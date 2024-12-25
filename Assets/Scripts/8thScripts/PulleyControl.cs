@@ -46,8 +46,8 @@ public class PulleyControl : MonoBehaviour
 
     void UpdateUI(float value = 0)
     {
-        forceText.text = "Force: " + forceSlider.value.ToString("F2") + " N";
-        massText.text = "Mass: " + massSlider.value.ToString("F2") + " Kg";
+        forceText.text = forceSlider.value.ToString("F2") + " N";
+        massText.text = massSlider.value.ToString("F2") + " Kg";
     }
 
     void OnDestroy()
