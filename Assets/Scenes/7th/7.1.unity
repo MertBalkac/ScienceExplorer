@@ -7643,6 +7643,88 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1055544042}
   m_CullTransparentMesh: 1
+--- !u!1001 &1064021931
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: c60a9858f50b12c4ebb8ad4078e86ec5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c60a9858f50b12c4ebb8ad4078e86ec5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -45
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c60a9858f50b12c4ebb8ad4078e86ec5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c60a9858f50b12c4ebb8ad4078e86ec5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c60a9858f50b12c4ebb8ad4078e86ec5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c60a9858f50b12c4ebb8ad4078e86ec5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c60a9858f50b12c4ebb8ad4078e86ec5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c60a9858f50b12c4ebb8ad4078e86ec5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c60a9858f50b12c4ebb8ad4078e86ec5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c60a9858f50b12c4ebb8ad4078e86ec5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c60a9858f50b12c4ebb8ad4078e86ec5, type: 3}
+      propertyPath: m_Name
+      value: journey through the digestive system (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4419119268632173823, guid: c60a9858f50b12c4ebb8ad4078e86ec5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7266bd715ce8dfa458381cf1fba57493, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 65702495048144492, guid: c60a9858f50b12c4ebb8ad4078e86ec5, type: 3}
+    - {fileID: 5044505599599858514, guid: c60a9858f50b12c4ebb8ad4078e86ec5, type: 3}
+    - {fileID: 7293821948801683433, guid: c60a9858f50b12c4ebb8ad4078e86ec5, type: 3}
+    - {fileID: -1470141543902406322, guid: c60a9858f50b12c4ebb8ad4078e86ec5, type: 3}
+    - {fileID: 3608815464179779635, guid: c60a9858f50b12c4ebb8ad4078e86ec5, type: 3}
+    - {fileID: -6482696589764928390, guid: c60a9858f50b12c4ebb8ad4078e86ec5, type: 3}
+    - {fileID: -3187299424064105263, guid: c60a9858f50b12c4ebb8ad4078e86ec5, type: 3}
+    - {fileID: -2181680288713638572, guid: c60a9858f50b12c4ebb8ad4078e86ec5, type: 3}
+    - {fileID: 1417580257495796079, guid: c60a9858f50b12c4ebb8ad4078e86ec5, type: 3}
+    - {fileID: -628237400022674424, guid: c60a9858f50b12c4ebb8ad4078e86ec5, type: 3}
+    - {fileID: -6020653874522068812, guid: c60a9858f50b12c4ebb8ad4078e86ec5, type: 3}
+    - {fileID: -8863772507597500187, guid: c60a9858f50b12c4ebb8ad4078e86ec5, type: 3}
+    - {fileID: 2096443813331737207, guid: c60a9858f50b12c4ebb8ad4078e86ec5, type: 3}
+    - {fileID: 3323731572880017306, guid: c60a9858f50b12c4ebb8ad4078e86ec5, type: 3}
+    - {fileID: -8440101054990384519, guid: c60a9858f50b12c4ebb8ad4078e86ec5, type: 3}
+    - {fileID: -3483231724154146205, guid: c60a9858f50b12c4ebb8ad4078e86ec5, type: 3}
+    - {fileID: 3840272111657957570, guid: c60a9858f50b12c4ebb8ad4078e86ec5, type: 3}
+    - {fileID: 8174907068477135312, guid: c60a9858f50b12c4ebb8ad4078e86ec5, type: 3}
+    - {fileID: 4974984522306558807, guid: c60a9858f50b12c4ebb8ad4078e86ec5, type: 3}
+    - {fileID: 5050422055867433376, guid: c60a9858f50b12c4ebb8ad4078e86ec5, type: 3}
+    - {fileID: 7869873546869171050, guid: c60a9858f50b12c4ebb8ad4078e86ec5, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c60a9858f50b12c4ebb8ad4078e86ec5, type: 3}
 --- !u!1 &1072971840
 GameObject:
   m_ObjectHideFlags: 0
@@ -9942,6 +10024,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 20384d6b9504bcc4ab4156ca161b1c8a, type: 3}
       propertyPath: m_Name
       value: journey through the digestive system
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 20384d6b9504bcc4ab4156ca161b1c8a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1417580257495796079, guid: 20384d6b9504bcc4ab4156ca161b1c8a, type: 3}
       propertyPath: m_IsActive
@@ -15998,6 +16084,7 @@ SceneRoots:
   - {fileID: 1942450643}
   - {fileID: 414287196}
   - {fileID: 1471040889}
+  - {fileID: 1064021931}
   - {fileID: 373049694}
   - {fileID: 142922840}
   - {fileID: 307928828}
