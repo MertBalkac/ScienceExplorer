@@ -1,4 +1,4 @@
-# graduationProject
+# Science Explorer
 - HOW TO RUN THE APPLICATION
 - 1. Download the Project files.
 - 2. Open project files in Unity.
