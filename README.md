@@ -1,0 +1,13 @@
+# graduationProject
+- HOW TO RUN THE APPLICATION
+- 1. Download the Project files.
+- 2. Open project files in Unity.
+- 3. Click File -> Build Settings.
+- 4. In the Build Setting Menu Click on WebGL on the Platform side.
+- 5. Click Player Settings on the Buttom Left side.
+- 6. Once you click Player Settings, Project Settings window will open.
+- 7. On the left side click on Player.
+- 8. In this Player menu, Click on the Publishing Settings. And Activate "Decompression Fallback".
+- 9. After you activatig close the Project Settings window.
+- 10. Now on the Build Settings window click on the "Build" button and choose folder.
+- 11. After you get build you can put the application in your website.
