@@ -7,7 +7,7 @@
 - 5. Click Player Settings on the Buttom Left side.
 - 6. Once you click Player Settings, Project Settings window will open.
 - 7. On the left side click on Player.
-- 8. In this Player menu, Click on the Publishing Settings. And Activate "Decompression Fallback".
+- 8. In this Player menu, Click on the Publishing Settings. Activate "Decompression Fallback" and change the Compression format to disabled.
 - 9. After you activatig close the Project Settings window.
 - 10. Now on the Build Settings window click on the "Build" button and choose folder.
 - 11. After you get build you can put the application in your website.
